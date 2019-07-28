@@ -1,0 +1,70 @@
+language ESSENCE' 1.0
+ 
+given numPlayers : int
+given teamSize : int
+given maxPoints : int
+given minPrice : int
+given maxPrice : int
+given priceLimit : int
+
+letting playerDom be domain int(1..numPlayers)
+letting pointsDom be domain int(0..maxPoints)
+letting teamDom be domain int(1..teamSize)
+letting positionDom be domain int(0..3)
+letting priceDom be domain int(minPrice..maxPrice)
+letting clubDom be domain int(0..19)
+
+given points : matrix indexed by [playerDom] of pointsDom
+given positions : matrix indexed by [playerDom] of positionDom
+given prices : matrix indexed by [playerDom] of priceDom
+given clubs : matrix indexed by [playerDom] of clubDom
+ 
+find team : matrix indexed by [teamDom] of playerDom
+find teamPoints : matrix indexed by [teamDom] of pointsDom
+find totalPoints : int(0..maxPoints * teamSize)
+find teamPositions : matrix indexed by [teamDom] of positionDom
+find teamPrices : matrix indexed by [teamDom] of priceDom
+find totalPrice : int(minPrice * teamSize..maxPrice * teamSize)
+find teamClubs : matrix indexed by [teamDom] of clubDom
+
+maximising totalPoints
+
+such that
+    $ Calculate team points
+    forAll i : teamDom .
+        teamPoints[i] = points[team[i]],
+
+    $ Calculate total points
+    totalPoints = sum i : teamDom .
+        teamPoints[i],
+
+    $ Calculate team positions
+    forAll i : teamDom .
+        teamPositions[i] = positions[team[i]],
+
+    $ Calculate team prices
+    forAll i : teamDom .
+        teamPrices[i] = prices[team[i]],
+
+    $ Calculate total price
+    totalPrice = sum i : teamDom .
+        teamPrices[i],
+
+    $ Calculate team clubs
+    forAll i : teamDom .
+        teamClubs[i] = clubs[team[i]],
+
+    allDiff(team),
+
+    $ Price limit
+    totalPrice <= priceLimit,
+
+    $ Player ordering
+    forAll i : int(1..teamSize-1) .
+        teamPoints[i] > teamPoints[i + 1],
+
+    $ Ensure correct position counts
+    gcc(teamPositions, [0, 1, 2, 3], [2, 4, 4, 2]),
+
+    $ Ensure 3 players per club
+    atmost(teamClubs, [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3], [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19])

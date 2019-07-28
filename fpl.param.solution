@@ -1,0 +1,12 @@
+language ESSENCE' 1.0
+$ Minion SolverNodes: 1116
+$ Minion SolverTotalTime: 0.124704
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.668
+letting team be [1, 6, 5, 2, 3, 11, 69, 35, 38, 10, 53, 140]
+letting teamClubs be [9, 16, 9, 10, 10, 9, 16, 2, 16, 10, 17, 17]
+letting teamPoints be [85, 67, 63, 61, 57, 56, 50, 48, 44, 43, 41, 39]
+letting teamPositions be [2, 3, 2, 2, 3, 1, 1, 2, 0, 1, 0, 1]
+letting teamPrices be [125, 110, 115, 120, 120, 70, 50, 75, 55, 65, 50, 45]
+letting totalPoints be 654
+letting totalPrice be 1000
