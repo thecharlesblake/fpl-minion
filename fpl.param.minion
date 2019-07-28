@@ -2,685 +2,898 @@ MINION 3
 # CSETopLevel_number = 0
 # CSETopLevel_eliminated_expressions = 0
 # CSETopLevel_total_size = 0
-# CSE_active_number = 33
-# CSE_active_eliminated_expressions = 194
-# CSE_active_total_size = 322
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
 **VARIABLES**
 DISCRETE team_00001 #
-{22..23}
-DISCRETE team_00002 #
-{20..22}
-DISCRETE team_00003 #
-{11..15}
-DISCRETE team_00004 #
-{10..11}
-DISCRETE team_00005 #
-{7..10}
-DISCRETE team_00006 #
-{8..19}
-DISCRETE team_00007 #
-{2..18}
-DISCRETE team_00008 #
-{1..13}
-DISCRETE team_00009 #
-{4..21}
-DISCRETE team_00010 #
-{3..17}
-DISCRETE teamPoints_00001_00001 #
-{37..45}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00001_00001, [37,37,45,45])
+false()
+**VARIABLES**
+DISCRETE team_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00008 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00009 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00010 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE team_00015 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00001_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00001_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00001_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamPoints_00001_00004 #
-{40..41}
-DISCRETE teamPoints_00001_00005 #
-{36..46}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00001_00005, [36,36,46,46])
+false()
+**VARIABLES**
+DISCRETE teamPoints_00001_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamPoints_00001_00006 #
-{35..44}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00001_00006, [35,35,44,44])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00002_00001 #
-{41..45}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00002_00001, [41,41,45,45])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00002_00002 #
-{40..41}
-DISCRETE teamPoints_00002_00003 #
-{39..40}
-DISCRETE teamPoints_00002_00004 #
-{41..47}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00002_00004, [41,41,47,47])
+false()
+**VARIABLES**
+DISCRETE teamPoints_00002_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00002_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamPoints_00002_00005 #
-{42..46}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00002_00005, [42,42,46,46])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00002_00006 #
-{35..45}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00002_00006, [35,35,45,45])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00003_00001 #
-{53..56}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00003_00001, [53,53,56,56])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00003_00002 #
-{43..45}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00003_00002, [43,43,45,45])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00003_00003 #
-{42..44}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00003_00003, [42,42,44,44])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00003_00004 #
-{45..47}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00003_00004, [45,45,47,47])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00003_00005 #
-{52..55}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00003_00005, [52,52,55,55])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00003_00006 #
-{32..34}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00003_00006, [32,32,34,34])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00004_00001 #
-{43..56}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00004_00001, [43,43,56,56])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00004_00002 #
-{43..45}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00004_00002, [43,43,45,45])
+false()
+**VARIABLES**
+DISCRETE teamPoints_00004_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamPoints_00004_00004 #
-{47..55}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00004_00004, [47,47,55,55])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00004_00005 #
-{46..55}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00004_00005, [46,46,55,55])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00004_00006 #
-{34..51}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00004_00006, [34,34,51,51])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00005_00001 #
-{43..61}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00005_00001, [43,43,61,61])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00005_00002 #
-{43..48}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00005_00002, [43,43,48,48])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00005_00003 #
-{44..48}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00005_00003, [44,44,48,48])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00005_00004 #
-{50..55}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00005_00004, [50,50,55,55])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00005_00005 #
-{46..59}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00005_00005, [46,46,59,59])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00005_00006 #
-{35..51}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00005_00006, [35,35,51,51])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00006_00001 #
-{39..56}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00006_00001, [39,39,42,43,45,45,56,56])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00006_00002 #
-{30..52}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00006_00002, [30,30,41,43,48,48,52,52])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00006_00003 #
-{41..55}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00006_00003, [41,41,44,45,50,50,55,55])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00006_00004 #
-{36..51}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00006_00004, [36,36,43,43,46,46,50,51])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00006_00005 #
-{41..52}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00006_00005, [41,41,43,45,47,47,52,52])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00006_00006 #
-{37..54}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00006_00006, [37,37,46,46,48,48,50,50,54,54])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00007_00001 #
-{39..63}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00007_00001, [39,39,42,43,45,45,61,61,63,63])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00007_00002 #
-{41..60}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00007_00002, [41,43,48,49,52,52,60,60])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00007_00003 #
-{41..63}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00007_00003, [41,41,44,45,53,53,55,55,63,63])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00007_00004 #
-{43..73}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00007_00004, [43,43,46,46,50,52,73,73])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00007_00005 #
-{41..62}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00007_00005, [41,41,43,45,52,52,61,62])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00007_00006 #
-{39..71}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00007_00006, [39,39,46,46,48,48,50,50,54,54,71,71])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00008_00001 #
-{42..85}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00008_00001, [42,43,45,45,61,61,63,63,85,85])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00008_00002 #
-{41..64}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00008_00002, [41,43,49,49,52,52,60,60,64,64])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00008_00003 #
-{44..70}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00008_00003, [44,45,53,53,55,55,63,63,70,70])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00008_00004 #
-{46..73}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00008_00004, [46,46,50,52,68,68,73,73])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00008_00005 #
-{43..79}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00008_00005, [43,45,52,52,61,62,79,79])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00008_00006 #
-{39..71}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00008_00006, [39,39,46,46,48,50,54,54,71,71])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00009_00001 #
-{39..67}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00009_00001, [39,39,44,44,47,47,53,53,55,55,67,67])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00009_00002 #
-{35..71}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00009_00002, [35,35,42,42,55,55,71,71])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00009_00003 #
-{31..60}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00009_00003, [31,31,38,38,45,45,53,53,60,60])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00009_00004 #
-{38..57}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00009_00004, [38,38,42,44,53,53,57,57])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00009_00005 #
-{35..58}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00009_00005, [35,35,40,41,50,50,53,53,58,58])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00009_00006 #
-{34..66}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00009_00006, [34,34,40,40,43,43,45,45,50,50,66,66])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00010_00001 #
-{44..67}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00010_00001, [44,44,47,47,53,53,55,55,57,57,67,67])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00010_00002 #
-{35..71}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00010_00002, [35,35,42,42,55,55,71,71])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00010_00003 #
-{31..60}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00010_00003, [31,31,38,38,45,45,58,58,60,60])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00010_00004 #
-{42..66}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00010_00004, [42,44,53,53,57,57,66,66])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00010_00005 #
-{35..58}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00010_00005, [35,35,41,41,50,50,53,53,56,56,58,58])
+false()
 **VARIABLES**
 DISCRETE teamPoints_00010_00006 #
-{34..66}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPoints_00010_00006, [34,34,43,43,45,45,50,50,63,63,66,66])
+false()
+**VARIABLES**
+DISCRETE teamPoints_00011_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00011_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00011_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00011_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00011_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00011_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00012_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00012_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00012_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00012_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00012_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00012_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00013_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00013_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00013_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00013_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00013_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00013_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00014_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00014_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00014_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00014_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00014_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00014_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00015_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00015_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00015_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00015_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00015_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPoints_00015_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE totalPoints #
-{1492..2889}
-DISCRETE teamPrices_00001 #
-{55..60}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00001, [55,55,60,60])
+false()
+**VARIABLES**
+DISCRETE teamPositions_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00008 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00009 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00010 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPositions_00015 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPrices_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPrices_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamPrices_00003 #
-{65..70}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00003, [65,65,70,70])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00004 #
-{65..70}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00004, [65,65,70,70])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00005 #
-{65..70}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00005, [65,65,70,70])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00006 #
-{80..95}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00006, [80,80,85,85,90,90,95,95])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00007 #
-{80..120}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00007, [80,80,85,85,95,95,115,115,120,120])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00008 #
-{80..125}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00008, [80,80,85,85,95,95,115,115,120,120,125,125])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00009 #
-{75..110}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00009, [75,75,90,90,95,95,110,110])
+false()
 **VARIABLES**
 DISCRETE teamPrices_00010 #
-{90..120}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamPrices_00010, [90,90,95,95,110,110,120,120])
+false()
+**VARIABLES**
+DISCRETE teamPrices_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPrices_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPrices_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPrices_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamPrices_00015 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE totalPrice #
-{720..875}
-DISCRETE teamClubs_00001 #
-{1..3}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamClubs_00001, [1,1,3,3])
+false()
+**VARIABLES**
+DISCRETE teamClubs_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamClubs_00002 #
-{3..4}
-DISCRETE teamClubs_00004 #
-{3..4}
-DISCRETE teamClubs_00005 #
-{3..4}
-DISCRETE teamClubs_00006 #
-{1..6}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamClubs_00006, [1,1,4,6])
+false()
+**VARIABLES**
+DISCRETE teamClubs_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE teamClubs_00007 #
-{1..5}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamClubs_00007, [1,1,3,5])
+false()
 **VARIABLES**
 DISCRETE teamClubs_00008 #
-{1..5}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamClubs_00008, [1,1,3,5])
+false()
 **VARIABLES**
 DISCRETE teamClubs_00009 #
-{0..7}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamClubs_00009, [0,0,2,3,6,7])
+false()
 **VARIABLES**
 DISCRETE teamClubs_00010 #
-{0..6}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(teamClubs_00010, [0,0,2,4,6,6])
+false()
+**VARIABLES**
+DISCRETE teamClubs_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE teamClubs_00015 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
 **VARIABLES**
 DISCRETE subs_00001_00001 #
-{1..2}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00001_00002 #
-{1..2}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00001_00003 #
-{1..2}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE subs_00001_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00001_00005 #
-{1..2}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00001_00006 #
-{1..2}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00002_00001 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00002_00002 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00002_00003 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00002_00004 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00002_00005 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00002_00006 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00003_00001 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00003_00002 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00003_00003 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00003_00004 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00003_00005 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00003_00006 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00004_00001 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00004_00002 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00004_00003 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00004_00004 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00004_00005 #
-{3..10}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
 DISCRETE subs_00004_00006 #
-{3..10}
-DISCRETE aux28 #
-{0..3}
-DISCRETE aux29 #
-{0..3}
-DISCRETE aux30 #
-{0..3}
-DISCRETE aux31 #
-{0..3}
-DISCRETE aux32 #
-{0..3}
-DISCRETE aux33 #
-{0..3}
-DISCRETE aux34 #
-{0..3}
-DISCRETE aux35 #
-{0..3}
-DISCRETE aux36 #
-{0..3}
-DISCRETE aux37 #
-{0..3}
-DISCRETE aux38 #
-{0..3}
-DISCRETE aux39 #
-{0..3}
-DISCRETE aux40 #
-{0..3}
-DISCRETE aux41 #
-{0..3}
-DISCRETE aux42 #
-{0..3}
-DISCRETE aux43 #
-{0..3}
-DISCRETE aux44 #
-{0..3}
-DISCRETE aux45 #
-{0..3}
-DISCRETE aux46 #
-{0..3}
-DISCRETE aux47 #
-{0..3}
-DISCRETE aux48 #Active-CSE: 10 occurrences of this expression or equivalent: Element([teamPoints_00003_00004, teamPoints_00004_00004, teamPoints_00005_00004, teamPoints_00006_00004, teamPoints_00007_00004, teamPoints_00008_00004, teamPoints_00009_00004, teamPoints_00010_00004], (-3 + subs_00004_00004))
-{36..73}
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
 **CONSTRAINTS**
-w-inintervalset(aux48, [36,36,38,38,42,47,50,53,55,55,57,57,66,66,68,68,73,73])
+false()
 **VARIABLES**
-DISCRETE aux49 #Active-CSE: 2 occurrences of this expression or equivalent: Element([teamPoints_00003_00004, teamPoints_00004_00004, teamPoints_00005_00004, teamPoints_00006_00004, teamPoints_00007_00004, teamPoints_00008_00004, teamPoints_00009_00004, teamPoints_00010_00004], (subs_00002_00004-3))
-{36..73}
-**CONSTRAINTS**
-w-inintervalset(aux49, [36,36,38,38,42,47,50,53,55,55,57,57,66,66,68,68,73,73])
 **VARIABLES**
-DISCRETE aux50 #Active-CSE: 2 occurrences of this expression or equivalent: Element([teamPoints_00003_00003, 44, teamPoints_00005_00003, teamPoints_00006_00003, teamPoints_00007_00003, teamPoints_00008_00003, teamPoints_00009_00003, teamPoints_00010_00003], (subs_00002_00003-3))
-{31..70}
-**CONSTRAINTS**
-w-inintervalset(aux50, [31,31,38,38,41,42,44,45,48,48,50,50,53,53,55,55,58,58,60,60,63,63,70,70])
+ALIAS clubs[34]=[5, 6, 6, 0, 5, 8, 5, 7, 3, 6, 5, 6, 6, 5, 5, 0, 4, 3, 8, 6, 9, 5, 7, 6, 1, 3, 3, 8, 2, 2, 7, 2, 8, 6]
 **VARIABLES**
-DISCRETE aux51 #Active-CSE: 10 occurrences of this expression or equivalent: Element([teamPoints_00003_00001, teamPoints_00004_00001, teamPoints_00005_00001, teamPoints_00006_00001, teamPoints_00007_00001, teamPoints_00008_00001, teamPoints_00009_00001, teamPoints_00010_00001], (-3 + subs_00004_00001))
-{39..85}
-**CONSTRAINTS**
-w-inintervalset(aux51, [39,39,42,45,47,47,53,53,55,57,61,61,63,63,67,67,85,85])
+ALIAS positions[34]=[2, 2, 3, 3, 2, 3, 1, 2, 2, 1, 1, 2, 2, 3, 1, 3, 3, 2, 2, 0, 3, 0, 3, 1, 3, 1, 0, 2, 1, 0, 0, 1, 2, 1]
 **VARIABLES**
-DISCRETE aux52 #Active-CSE: 10 occurrences of this expression or equivalent: Element([teamPoints_00003_00003, 44, teamPoints_00005_00003, teamPoints_00006_00003, teamPoints_00007_00003, teamPoints_00008_00003, teamPoints_00009_00003, teamPoints_00010_00003], (-3 + subs_00004_00003))
-{31..70}
-**CONSTRAINTS**
-w-inintervalset(aux52, [31,31,38,38,41,42,44,45,48,48,50,50,53,53,55,55,58,58,60,60,63,63,70,70])
-**VARIABLES**
-DISCRETE aux53 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00003_00001, teamPoints_00004_00001, teamPoints_00005_00001, teamPoints_00006_00001, teamPoints_00007_00001, teamPoints_00008_00001, teamPoints_00009_00001, teamPoints_00010_00001], (-3 + subs_00003_00001))
-{39..85}
-**CONSTRAINTS**
-w-inintervalset(aux53, [39,39,42,45,47,47,53,53,55,57,61,61,63,63,67,67,85,85])
-**VARIABLES**
-DISCRETE aux54 #Active-CSE: 2 occurrences of this expression or equivalent: Element([teamPoints_00003_00006, teamPoints_00004_00006, teamPoints_00005_00006, teamPoints_00006_00006, teamPoints_00007_00006, teamPoints_00008_00006, teamPoints_00009_00006, teamPoints_00010_00006], (subs_00002_00006-3))
-{32..71}
-**CONSTRAINTS**
-w-inintervalset(aux54, [32,32,34,35,37,37,39,40,43,43,45,46,48,51,54,54,63,63,66,66,71,71])
-**VARIABLES**
-DISCRETE aux55 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00003_00006, teamPoints_00004_00006, teamPoints_00005_00006, teamPoints_00006_00006, teamPoints_00007_00006, teamPoints_00008_00006, teamPoints_00009_00006, teamPoints_00010_00006], (-3 + subs_00003_00006))
-{32..71}
-**CONSTRAINTS**
-w-inintervalset(aux55, [32,32,34,35,37,37,39,40,43,43,45,46,48,51,54,54,63,63,66,66,71,71])
-**VARIABLES**
-DISCRETE aux56 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00003_00002, teamPoints_00004_00002, teamPoints_00005_00002, teamPoints_00006_00002, teamPoints_00007_00002, teamPoints_00008_00002, teamPoints_00009_00002, teamPoints_00010_00002], (-3 + subs_00003_00002))
-{30..71}
-**CONSTRAINTS**
-w-inintervalset(aux56, [30,30,35,35,41,43,45,45,48,49,52,52,55,55,60,60,64,64,71,71])
-**VARIABLES**
-DISCRETE aux57 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00003_00004, teamPoints_00004_00004, teamPoints_00005_00004, teamPoints_00006_00004, teamPoints_00007_00004, teamPoints_00008_00004, teamPoints_00009_00004, teamPoints_00010_00004], (-3 + subs_00003_00004))
-{36..73}
-**CONSTRAINTS**
-w-inintervalset(aux57, [36,36,38,38,42,47,50,53,55,55,57,57,66,66,68,68,73,73])
-**VARIABLES**
-DISCRETE aux58 #Active-CSE: 2 occurrences of this expression or equivalent: Element([teamPoints_00003_00001, teamPoints_00004_00001, teamPoints_00005_00001, teamPoints_00006_00001, teamPoints_00007_00001, teamPoints_00008_00001, teamPoints_00009_00001, teamPoints_00010_00001], (subs_00002_00001-3))
-{39..85}
-**CONSTRAINTS**
-w-inintervalset(aux58, [39,39,42,45,47,47,53,53,55,57,61,61,63,63,67,67,85,85])
-**VARIABLES**
-DISCRETE aux59 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00003_00005, teamPoints_00004_00005, teamPoints_00005_00005, teamPoints_00006_00005, teamPoints_00007_00005, teamPoints_00008_00005, teamPoints_00009_00005, teamPoints_00010_00005], (-3 + subs_00003_00005))
-{35..79}
-**CONSTRAINTS**
-w-inintervalset(aux59, [35,35,40,41,43,47,50,50,52,53,55,56,58,59,61,62,79,79])
-**VARIABLES**
-DISCRETE aux60 #Active-CSE: 2 occurrences of this expression or equivalent: Element([teamPoints_00003_00002, teamPoints_00004_00002, teamPoints_00005_00002, teamPoints_00006_00002, teamPoints_00007_00002, teamPoints_00008_00002, teamPoints_00009_00002, teamPoints_00010_00002], (subs_00002_00002-3))
-{30..71}
-**CONSTRAINTS**
-w-inintervalset(aux60, [30,30,35,35,41,43,45,45,48,49,52,52,55,55,60,60,64,64,71,71])
-**VARIABLES**
-DISCRETE aux61 #Active-CSE: 10 occurrences of this expression or equivalent: Element([teamPoints_00003_00006, teamPoints_00004_00006, teamPoints_00005_00006, teamPoints_00006_00006, teamPoints_00007_00006, teamPoints_00008_00006, teamPoints_00009_00006, teamPoints_00010_00006], (-3 + subs_00004_00006))
-{32..71}
-**CONSTRAINTS**
-w-inintervalset(aux61, [32,32,34,35,37,37,39,40,43,43,45,46,48,51,54,54,63,63,66,66,71,71])
-**VARIABLES**
-DISCRETE aux62 #Active-CSE: 2 occurrences of this expression or equivalent: Element([teamPoints_00003_00005, teamPoints_00004_00005, teamPoints_00005_00005, teamPoints_00006_00005, teamPoints_00007_00005, teamPoints_00008_00005, teamPoints_00009_00005, teamPoints_00010_00005], (subs_00002_00005-3))
-{35..79}
-**CONSTRAINTS**
-w-inintervalset(aux62, [35,35,40,41,43,47,50,50,52,53,55,56,58,59,61,62,79,79])
-**VARIABLES**
-DISCRETE aux63 #Active-CSE: 10 occurrences of this expression or equivalent: Element([teamPoints_00003_00002, teamPoints_00004_00002, teamPoints_00005_00002, teamPoints_00006_00002, teamPoints_00007_00002, teamPoints_00008_00002, teamPoints_00009_00002, teamPoints_00010_00002], (-3 + subs_00004_00002))
-{30..71}
-**CONSTRAINTS**
-w-inintervalset(aux63, [30,30,35,35,41,43,45,45,48,49,52,52,55,55,60,60,64,64,71,71])
-**VARIABLES**
-DISCRETE aux64 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00003_00003, 44, teamPoints_00005_00003, teamPoints_00006_00003, teamPoints_00007_00003, teamPoints_00008_00003, teamPoints_00009_00003, teamPoints_00010_00003], (-3 + subs_00003_00003))
-{31..70}
-**CONSTRAINTS**
-w-inintervalset(aux64, [31,31,38,38,41,42,44,45,48,48,50,50,53,53,55,55,58,58,60,60,63,63,70,70])
-**VARIABLES**
-DISCRETE aux65 #Active-CSE: 10 occurrences of this expression or equivalent: Element([teamPoints_00003_00005, teamPoints_00004_00005, teamPoints_00005_00005, teamPoints_00006_00005, teamPoints_00007_00005, teamPoints_00008_00005, teamPoints_00009_00005, teamPoints_00010_00005], (-3 + subs_00004_00005))
-{35..79}
-**CONSTRAINTS**
-w-inintervalset(aux65, [35,35,40,41,43,47,50,50,52,53,55,56,58,59,61,62,79,79])
-**VARIABLES**
-DISCRETE aux66 #Active-CSE: 2 occurrences of this expression or equivalent: Element([41, teamPoints_00002_00002], (subs_00001_00002-1))
-{40..41}
-DISCRETE aux67 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00001_00001, teamPoints_00002_00001], (subs_00001_00001-1))
-{37..45}
-**CONSTRAINTS**
-w-inintervalset(aux67, [37,37,41,41,45,45])
-**VARIABLES**
-DISCRETE aux68 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00001_00005, teamPoints_00002_00005], (subs_00001_00005-1))
-{36..46}
-**CONSTRAINTS**
-w-inintervalset(aux68, [36,36,42,42,46,46])
-**VARIABLES**
-DISCRETE aux69 #Active-CSE: 3 occurrences of this expression or equivalent: Element([teamPoints_00001_00006, teamPoints_00002_00006], (subs_00001_00006-1))
-{35..45}
-**CONSTRAINTS**
-w-inintervalset(aux69, [35,35,44,45])
-**VARIABLES**
-DISCRETE aux70 #Active-CSE: 3 occurrences of this expression or equivalent: Element([39, teamPoints_00002_00003], (subs_00001_00003-1))
-{39..40}
-DISCRETE aux71 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00002-20)
-{0..2}
-DISCRETE aux72 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00005-7)
-{0..3}
-DISCRETE aux73 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00003-11)
-{0..4}
-DISCRETE aux74 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00006-8)
-{0..11}
-DISCRETE aux75 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00009-4)
-{0..17}
-BOOL aux76 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00004-10)
-BOOL aux77 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00001-22)
-DISCRETE aux78 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00007-2)
-{0..16}
-DISCRETE aux79 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00010-3)
-{0..14}
-DISCRETE aux80 #Active-CSE: 9 occurrences of this expression or equivalent: (team_00008-1)
-{0..12}
-DISCRETE aux81 #(-3 + subs_00004_00004)
-{0..7}
-DISCRETE aux82 #(subs_00002_00004-3)
-{0..7}
-DISCRETE aux83 #(subs_00002_00003-3)
-{0..7}
-DISCRETE aux84 #(-3 + subs_00004_00001)
-{0..7}
-DISCRETE aux85 #(-3 + subs_00004_00003)
-{0..7}
-DISCRETE aux86 #(-3 + subs_00003_00001)
-{0..7}
-DISCRETE aux87 #(subs_00002_00006-3)
-{0..7}
-DISCRETE aux88 #(-3 + subs_00003_00006)
-{0..7}
-DISCRETE aux89 #(-3 + subs_00003_00002)
-{0..7}
-DISCRETE aux90 #(-3 + subs_00003_00004)
-{0..7}
-DISCRETE aux91 #(subs_00002_00001-3)
-{0..7}
-DISCRETE aux92 #(-3 + subs_00003_00005)
-{0..7}
-DISCRETE aux93 #(subs_00002_00002-3)
-{0..7}
-DISCRETE aux94 #(-3 + subs_00004_00006)
-{0..7}
-DISCRETE aux95 #(subs_00002_00005-3)
-{0..7}
-DISCRETE aux96 #(-3 + subs_00004_00002)
-{0..7}
-DISCRETE aux97 #(-3 + subs_00003_00003)
-{0..7}
-DISCRETE aux98 #(-3 + subs_00004_00005)
-{0..7}
-BOOL aux99 #(subs_00001_00002-1)
-BOOL aux100 #(subs_00001_00001-1)
-BOOL aux101 #(subs_00001_00005-1)
-BOOL aux102 #(subs_00001_00006-1)
-BOOL aux103 #(subs_00001_00003-1)
-DISCRETE aux104 #max(teamPoints_00009_00003, teamPoints_00005_00003, teamPoints_00006_00003, 44, teamPoints_00010_00003, teamPoints_00002_00003, teamPoints_00007_00003, teamPoints_00003_00003, teamPoints_00008_00003)
-{44..70}
-**CONSTRAINTS**
-w-inintervalset(aux104, [44,45,48,48,50,50,53,53,55,55,58,58,60,60,63,63,70,70])
-**VARIABLES**
-DISCRETE aux105 #max(teamPoints_00004_00004, teamPoints_00009_00004, teamPoints_00005_00004, teamPoints_00001_00004, teamPoints_00006_00004, teamPoints_00010_00004, teamPoints_00002_00004, teamPoints_00007_00004, teamPoints_00003_00004, teamPoints_00008_00004)
-{50..73}
-**CONSTRAINTS**
-w-inintervalset(aux105, [50,53,55,55,57,57,66,66,68,68,73,73])
-**VARIABLES**
-DISCRETE aux106 #max(teamPoints_00004_00005, teamPoints_00009_00005, teamPoints_00005_00005, teamPoints_00001_00005, teamPoints_00006_00005, teamPoints_00010_00005, teamPoints_00002_00005, teamPoints_00007_00005, teamPoints_00003_00005, teamPoints_00008_00005)
-{52..79}
-**CONSTRAINTS**
-w-inintervalset(aux106, [52,53,55,56,58,59,61,62,79,79])
-**VARIABLES**
-DISCRETE aux107 #max(teamPoints_00004_00006, teamPoints_00009_00006, teamPoints_00005_00006, teamPoints_00001_00006, teamPoints_00006_00006, teamPoints_00010_00006, teamPoints_00002_00006, teamPoints_00007_00006, teamPoints_00003_00006, teamPoints_00008_00006)
-{39..71}
-**CONSTRAINTS**
-w-inintervalset(aux107, [39,40,43,46,48,51,54,54,63,63,66,66,71,71])
-**VARIABLES**
-DISCRETE aux108 #max(teamPoints_00004_00002, teamPoints_00009_00002, teamPoints_00005_00002, teamPoints_00006_00002, 41, teamPoints_00010_00002, teamPoints_00002_00002, teamPoints_00007_00002, teamPoints_00003_00002, teamPoints_00008_00002)
-{43..71}
-**CONSTRAINTS**
-w-inintervalset(aux108, [43,43,45,45,48,49,52,52,55,55,60,60,64,64,71,71])
-**VARIABLES**
-DISCRETE aux109 #max(teamPoints_00004_00001, teamPoints_00009_00001, teamPoints_00005_00001, teamPoints_00001_00001, teamPoints_00006_00001, teamPoints_00010_00001, teamPoints_00002_00001, teamPoints_00007_00001, teamPoints_00003_00001, teamPoints_00008_00001)
-{53..85}
-**CONSTRAINTS**
-w-inintervalset(aux109, [53,53,55,57,61,61,63,63,67,67,85,85])
-**VARIABLES**
-DISCRETE aux110 #(-1 + aux31)
-{-1..2}
-**VARIABLES**
-ALIAS clubs[23]=[3, 4, 4, 0, 3, 6, 3, 5, 1, 4, 3, 4, 4, 3, 3, 0, 2, 1, 6, 4, 7, 3, 1]
-**VARIABLES**
-ALIAS positions[23]=[2, 2, 3, 3, 2, 3, 1, 2, 2, 1, 1, 2, 2, 3, 1, 3, 3, 2, 2, 0, 3, 0, 0]
-**VARIABLES**
-ALIAS prices[23]=[125, 120, 120, 110, 115, 110, 70, 85, 80, 65, 70, 95, 80, 95, 65, 95, 90, 80, 90, 60, 75, 60, 55]
+ALIAS prices[34]=[15, 120, 120, 110, 115, 110, 70, 85, 80, 65, 70, 95, 80, 95, 65, 95, 90, 80, 90, 60, 75, 60, 85, 60, 80, 60, 55, 85, 60, 55, 55, 60, 75, 55]
 **TUPLELIST**
-points 23 6
+points 34 6
 85 64 70 68 79 49 
 61 60 63 73 62 71 
 57 55 58 66 56 63 
@@ -703,285 +916,23 @@ points 23 6
 41 40 40 47 42 45 
 39 42 53 38 40 40 
 45 41 39 41 46 35 
+40 36 47 40 44 40 
+38 37 38 48 39 44 
+51 41 32 37 43 38 
+34 44 39 41 33 49 
 37 41 39 40 36 44 
+51 28 46 33 43 34 
+28 45 41 53 36 31 
+33 41 39 45 37 35 
+38 36 42 38 40 36 
+27 44 40 52 35 31 
+53 28 45 32 40 31 
+37 36 35 45 36 40 
 **VARIABLES**
-ALIAS points[23,6]=[[85, 64, 70, 68, 79, 49], [61, 60, 63, 73, 62, 71], [57, 55, 58, 66, 56, 63], [55, 71, 38, 53, 53, 66], [63, 49, 53, 52, 61, 39], [67, 35, 60, 43, 58, 45], [61, 48, 48, 50, 59, 35], [45, 41, 55, 46, 52, 46], [42, 52, 44, 46, 44, 54], [43, 43, 44, 55, 46, 51], [56, 45, 44, 47, 55, 34], [43, 43, 45, 51, 45, 50], [42, 42, 44, 50, 43, 48], [53, 42, 45, 44, 50, 34], [53, 43, 42, 45, 52, 32], [44, 55, 31, 42, 41, 50], [47, 35, 45, 57, 35, 43], [39, 48, 41, 43, 41, 50], [56, 30, 50, 36, 47, 37], [41, 40, 40, 47, 42, 45], [39, 42, 53, 38, 40, 40], [45, 41, 39, 41, 46, 35], [37, 41, 39, 40, 36, 44]]
+ALIAS points[34,6]=[[85, 64, 70, 68, 79, 49], [61, 60, 63, 73, 62, 71], [57, 55, 58, 66, 56, 63], [55, 71, 38, 53, 53, 66], [63, 49, 53, 52, 61, 39], [67, 35, 60, 43, 58, 45], [61, 48, 48, 50, 59, 35], [45, 41, 55, 46, 52, 46], [42, 52, 44, 46, 44, 54], [43, 43, 44, 55, 46, 51], [56, 45, 44, 47, 55, 34], [43, 43, 45, 51, 45, 50], [42, 42, 44, 50, 43, 48], [53, 42, 45, 44, 50, 34], [53, 43, 42, 45, 52, 32], [44, 55, 31, 42, 41, 50], [47, 35, 45, 57, 35, 43], [39, 48, 41, 43, 41, 50], [56, 30, 50, 36, 47, 37], [41, 40, 40, 47, 42, 45], [39, 42, 53, 38, 40, 40], [45, 41, 39, 41, 46, 35], [40, 36, 47, 40, 44, 40], [38, 37, 38, 48, 39, 44], [51, 41, 32, 37, 43, 38], [34, 44, 39, 41, 33, 49], [37, 41, 39, 40, 36, 44], [51, 28, 46, 33, 43, 34], [28, 45, 41, 53, 36, 31], [33, 41, 39, 45, 37, 35], [38, 36, 42, 38, 40, 36], [27, 44, 40, 52, 35, 31], [53, 28, 45, 32, 40, 31], [37, 36, 35, 45, 36, 40]]
 **SEARCH**
-PRINT[[team_00001],[team_00002],[team_00003],[team_00004],[team_00005],[team_00006],[team_00007],[team_00008],[team_00009],[team_00010],[teamPoints_00001_00001],[teamPoints_00001_00004],[teamPoints_00001_00005],[teamPoints_00001_00006],[teamPoints_00002_00001],[teamPoints_00002_00002],[teamPoints_00002_00003],[teamPoints_00002_00004],[teamPoints_00002_00005],[teamPoints_00002_00006],[teamPoints_00003_00001],[teamPoints_00003_00002],[teamPoints_00003_00003],[teamPoints_00003_00004],[teamPoints_00003_00005],[teamPoints_00003_00006],[teamPoints_00004_00001],[teamPoints_00004_00002],[teamPoints_00004_00004],[teamPoints_00004_00005],[teamPoints_00004_00006],[teamPoints_00005_00001],[teamPoints_00005_00002],[teamPoints_00005_00003],[teamPoints_00005_00004],[teamPoints_00005_00005],[teamPoints_00005_00006],[teamPoints_00006_00001],[teamPoints_00006_00002],[teamPoints_00006_00003],[teamPoints_00006_00004],[teamPoints_00006_00005],[teamPoints_00006_00006],[teamPoints_00007_00001],[teamPoints_00007_00002],[teamPoints_00007_00003],[teamPoints_00007_00004],[teamPoints_00007_00005],[teamPoints_00007_00006],[teamPoints_00008_00001],[teamPoints_00008_00002],[teamPoints_00008_00003],[teamPoints_00008_00004],[teamPoints_00008_00005],[teamPoints_00008_00006],[teamPoints_00009_00001],[teamPoints_00009_00002],[teamPoints_00009_00003],[teamPoints_00009_00004],[teamPoints_00009_00005],[teamPoints_00009_00006],[teamPoints_00010_00001],[teamPoints_00010_00002],[teamPoints_00010_00003],[teamPoints_00010_00004],[teamPoints_00010_00005],[teamPoints_00010_00006],[totalPoints],[teamPrices_00001],[teamPrices_00003],[teamPrices_00004],[teamPrices_00005],[teamPrices_00006],[teamPrices_00007],[teamPrices_00008],[teamPrices_00009],[teamPrices_00010],[totalPrice],[teamClubs_00001],[teamClubs_00002],[teamClubs_00004],[teamClubs_00005],[teamClubs_00006],[teamClubs_00007],[teamClubs_00008],[teamClubs_00009],[teamClubs_00010],[subs_00001_00001],[subs_00001_00002],[subs_00001_00003],[subs_00001_00005],[subs_00001_00006],[subs_00002_00001],[subs_00002_00002],[subs_00002_00003],[subs_00002_00004],[subs_00002_00005],[subs_00002_00006],[subs_00003_00001],[subs_00003_00002],[subs_00003_00003],[subs_00003_00004],[subs_00003_00005],[subs_00003_00006],[subs_00004_00001],[subs_00004_00002],[subs_00004_00003],[subs_00004_00004],[subs_00004_00005],[subs_00004_00006][totalPoints]]
+PRINT[[team_00001],[team_00002],[team_00003],[team_00004],[team_00005],[team_00006],[team_00007],[team_00008],[team_00009],[team_00010],[team_00011],[team_00012],[team_00013],[team_00014],[team_00015],[teamPoints_00001_00001],[teamPoints_00001_00002],[teamPoints_00001_00003],[teamPoints_00001_00004],[teamPoints_00001_00005],[teamPoints_00001_00006],[teamPoints_00002_00001],[teamPoints_00002_00002],[teamPoints_00002_00003],[teamPoints_00002_00004],[teamPoints_00002_00005],[teamPoints_00002_00006],[teamPoints_00003_00001],[teamPoints_00003_00002],[teamPoints_00003_00003],[teamPoints_00003_00004],[teamPoints_00003_00005],[teamPoints_00003_00006],[teamPoints_00004_00001],[teamPoints_00004_00002],[teamPoints_00004_00003],[teamPoints_00004_00004],[teamPoints_00004_00005],[teamPoints_00004_00006],[teamPoints_00005_00001],[teamPoints_00005_00002],[teamPoints_00005_00003],[teamPoints_00005_00004],[teamPoints_00005_00005],[teamPoints_00005_00006],[teamPoints_00006_00001],[teamPoints_00006_00002],[teamPoints_00006_00003],[teamPoints_00006_00004],[teamPoints_00006_00005],[teamPoints_00006_00006],[teamPoints_00007_00001],[teamPoints_00007_00002],[teamPoints_00007_00003],[teamPoints_00007_00004],[teamPoints_00007_00005],[teamPoints_00007_00006],[teamPoints_00008_00001],[teamPoints_00008_00002],[teamPoints_00008_00003],[teamPoints_00008_00004],[teamPoints_00008_00005],[teamPoints_00008_00006],[teamPoints_00009_00001],[teamPoints_00009_00002],[teamPoints_00009_00003],[teamPoints_00009_00004],[teamPoints_00009_00005],[teamPoints_00009_00006],[teamPoints_00010_00001],[teamPoints_00010_00002],[teamPoints_00010_00003],[teamPoints_00010_00004],[teamPoints_00010_00005],[teamPoints_00010_00006],[teamPoints_00011_00001],[teamPoints_00011_00002],[teamPoints_00011_00003],[teamPoints_00011_00004],[teamPoints_00011_00005],[teamPoints_00011_00006],[teamPoints_00012_00001],[teamPoints_00012_00002],[teamPoints_00012_00003],[teamPoints_00012_00004],[teamPoints_00012_00005],[teamPoints_00012_00006],[teamPoints_00013_00001],[teamPoints_00013_00002],[teamPoints_00013_00003],[teamPoints_00013_00004],[teamPoints_00013_00005],[teamPoints_00013_00006],[teamPoints_00014_00001],[teamPoints_00014_00002],[teamPoints_00014_00003],[teamPoints_00014_00004],[teamPoints_00014_00005],[teamPoints_00014_00006],[teamPoints_00015_00001],[teamPoints_00015_00002],[teamPoints_00015_00003],[teamPoints_00015_00004],[teamPoints_00015_00005],[teamPoints_00015_00006],[totalPoints],[teamPositions_00001],[teamPositions_00002],[teamPositions_00003],[teamPositions_00004],[teamPositions_00005],[teamPositions_00006],[teamPositions_00007],[teamPositions_00008],[teamPositions_00009],[teamPositions_00010],[teamPositions_00011],[teamPositions_00012],[teamPositions_00013],[teamPositions_00014],[teamPositions_00015],[teamPrices_00001],[teamPrices_00002],[teamPrices_00003],[teamPrices_00004],[teamPrices_00005],[teamPrices_00006],[teamPrices_00007],[teamPrices_00008],[teamPrices_00009],[teamPrices_00010],[teamPrices_00011],[teamPrices_00012],[teamPrices_00013],[teamPrices_00014],[teamPrices_00015],[totalPrice],[teamClubs_00001],[teamClubs_00002],[teamClubs_00003],[teamClubs_00004],[teamClubs_00005],[teamClubs_00006],[teamClubs_00007],[teamClubs_00008],[teamClubs_00009],[teamClubs_00010],[teamClubs_00011],[teamClubs_00012],[teamClubs_00013],[teamClubs_00014],[teamClubs_00015],[subs_00001_00001],[subs_00001_00002],[subs_00001_00003],[subs_00001_00004],[subs_00001_00005],[subs_00001_00006],[subs_00002_00001],[subs_00002_00002],[subs_00002_00003],[subs_00002_00004],[subs_00002_00005],[subs_00002_00006],[subs_00003_00001],[subs_00003_00002],[subs_00003_00003],[subs_00003_00004],[subs_00003_00005],[subs_00003_00006],[subs_00004_00001],[subs_00004_00002],[subs_00004_00003],[subs_00004_00004],[subs_00004_00005],[subs_00004_00006][totalPoints]]
 MAXIMISING totalPoints
-VARORDER STATIC [team_00001, team_00002, team_00003, team_00004, team_00005, team_00006, team_00007, team_00008, team_00009, team_00010, teamPoints_00001_00001, 41, 39, teamPoints_00001_00004, teamPoints_00001_00005, teamPoints_00001_00006, teamPoints_00002_00001, teamPoints_00002_00002, teamPoints_00002_00003, teamPoints_00002_00004, teamPoints_00002_00005, teamPoints_00002_00006, teamPoints_00003_00001, teamPoints_00003_00002, teamPoints_00003_00003, teamPoints_00003_00004, teamPoints_00003_00005, teamPoints_00003_00006, teamPoints_00004_00001, teamPoints_00004_00002, 44, teamPoints_00004_00004, teamPoints_00004_00005, teamPoints_00004_00006, teamPoints_00005_00001, teamPoints_00005_00002, teamPoints_00005_00003, teamPoints_00005_00004, teamPoints_00005_00005, teamPoints_00005_00006, teamPoints_00006_00001, teamPoints_00006_00002, teamPoints_00006_00003, teamPoints_00006_00004, teamPoints_00006_00005, teamPoints_00006_00006, teamPoints_00007_00001, teamPoints_00007_00002, teamPoints_00007_00003, teamPoints_00007_00004, teamPoints_00007_00005, teamPoints_00007_00006, teamPoints_00008_00001, teamPoints_00008_00002, teamPoints_00008_00003, teamPoints_00008_00004, teamPoints_00008_00005, teamPoints_00008_00006, teamPoints_00009_00001, teamPoints_00009_00002, teamPoints_00009_00003, teamPoints_00009_00004, teamPoints_00009_00005, teamPoints_00009_00006, teamPoints_00010_00001, teamPoints_00010_00002, teamPoints_00010_00003, teamPoints_00010_00004, teamPoints_00010_00005, teamPoints_00010_00006, totalPoints, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, teamPrices_00001, 60, teamPrices_00003, teamPrices_00004, teamPrices_00005, teamPrices_00006, teamPrices_00007, teamPrices_00008, teamPrices_00009, teamPrices_00010, totalPrice, teamClubs_00001, teamClubs_00002, 3, teamClubs_00004, teamClubs_00005, teamClubs_00006, teamClubs_00007, teamClubs_00008, teamClubs_00009, teamClubs_00010, subs_00001_00001, subs_00001_00002, subs_00001_00003, 1, subs_00001_00005, subs_00001_00006, subs_00002_00001, subs_00002_00002, subs_00002_00003, subs_00002_00004, subs_00002_00005, subs_00002_00006, subs_00003_00001, subs_00003_00002, subs_00003_00003, subs_00003_00004, subs_00003_00005, subs_00003_00006, subs_00004_00001, subs_00004_00002, subs_00004_00003, subs_00004_00004, subs_00004_00005, subs_00004_00006]
+VARORDER STATIC [team_00001, team_00002, team_00003, team_00004, team_00005, team_00006, team_00007, team_00008, team_00009, team_00010, team_00011, team_00012, team_00013, team_00014, team_00015, teamPoints_00001_00001, teamPoints_00001_00002, teamPoints_00001_00003, teamPoints_00001_00004, teamPoints_00001_00005, teamPoints_00001_00006, teamPoints_00002_00001, teamPoints_00002_00002, teamPoints_00002_00003, teamPoints_00002_00004, teamPoints_00002_00005, teamPoints_00002_00006, teamPoints_00003_00001, teamPoints_00003_00002, teamPoints_00003_00003, teamPoints_00003_00004, teamPoints_00003_00005, teamPoints_00003_00006, teamPoints_00004_00001, teamPoints_00004_00002, teamPoints_00004_00003, teamPoints_00004_00004, teamPoints_00004_00005, teamPoints_00004_00006, teamPoints_00005_00001, teamPoints_00005_00002, teamPoints_00005_00003, teamPoints_00005_00004, teamPoints_00005_00005, teamPoints_00005_00006, teamPoints_00006_00001, teamPoints_00006_00002, teamPoints_00006_00003, teamPoints_00006_00004, teamPoints_00006_00005, teamPoints_00006_00006, teamPoints_00007_00001, teamPoints_00007_00002, teamPoints_00007_00003, teamPoints_00007_00004, teamPoints_00007_00005, teamPoints_00007_00006, teamPoints_00008_00001, teamPoints_00008_00002, teamPoints_00008_00003, teamPoints_00008_00004, teamPoints_00008_00005, teamPoints_00008_00006, teamPoints_00009_00001, teamPoints_00009_00002, teamPoints_00009_00003, teamPoints_00009_00004, teamPoints_00009_00005, teamPoints_00009_00006, teamPoints_00010_00001, teamPoints_00010_00002, teamPoints_00010_00003, teamPoints_00010_00004, teamPoints_00010_00005, teamPoints_00010_00006, teamPoints_00011_00001, teamPoints_00011_00002, teamPoints_00011_00003, teamPoints_00011_00004, teamPoints_00011_00005, teamPoints_00011_00006, teamPoints_00012_00001, teamPoints_00012_00002, teamPoints_00012_00003, teamPoints_00012_00004, teamPoints_00012_00005, teamPoints_00012_00006, teamPoints_00013_00001, teamPoints_00013_00002, teamPoints_00013_00003, teamPoints_00013_00004, teamPoints_00013_00005, teamPoints_00013_00006, teamPoints_00014_00001, teamPoints_00014_00002, teamPoints_00014_00003, teamPoints_00014_00004, teamPoints_00014_00005, teamPoints_00014_00006, teamPoints_00015_00001, teamPoints_00015_00002, teamPoints_00015_00003, teamPoints_00015_00004, teamPoints_00015_00005, teamPoints_00015_00006, totalPoints, teamPositions_00001, teamPositions_00002, teamPositions_00003, teamPositions_00004, teamPositions_00005, teamPositions_00006, teamPositions_00007, teamPositions_00008, teamPositions_00009, teamPositions_00010, teamPositions_00011, teamPositions_00012, teamPositions_00013, teamPositions_00014, teamPositions_00015, teamPrices_00001, teamPrices_00002, teamPrices_00003, teamPrices_00004, teamPrices_00005, teamPrices_00006, teamPrices_00007, teamPrices_00008, teamPrices_00009, teamPrices_00010, teamPrices_00011, teamPrices_00012, teamPrices_00013, teamPrices_00014, teamPrices_00015, totalPrice, teamClubs_00001, teamClubs_00002, teamClubs_00003, teamClubs_00004, teamClubs_00005, teamClubs_00006, teamClubs_00007, teamClubs_00008, teamClubs_00009, teamClubs_00010, teamClubs_00011, teamClubs_00012, teamClubs_00013, teamClubs_00014, teamClubs_00015, subs_00001_00001, subs_00001_00002, subs_00001_00003, subs_00001_00004, subs_00001_00005, subs_00001_00006, subs_00002_00001, subs_00002_00002, subs_00002_00003, subs_00002_00004, subs_00002_00005, subs_00002_00006, subs_00003_00001, subs_00003_00002, subs_00003_00003, subs_00003_00004, subs_00003_00005, subs_00003_00006, subs_00004_00001, subs_00004_00002, subs_00004_00003, subs_00004_00004, subs_00004_00005, subs_00004_00006]
 **CONSTRAINTS**
-max([teamPoints_00009_00003,teamPoints_00005_00003,teamPoints_00006_00003,44,teamPoints_00010_00003,teamPoints_00002_00003,teamPoints_00007_00003,teamPoints_00003_00003,teamPoints_00008_00003],aux104)
-max([teamPoints_00004_00004,teamPoints_00009_00004,teamPoints_00005_00004,teamPoints_00001_00004,teamPoints_00006_00004,teamPoints_00010_00004,teamPoints_00002_00004,teamPoints_00007_00004,teamPoints_00003_00004,teamPoints_00008_00004],aux105)
-max([teamPoints_00004_00005,teamPoints_00009_00005,teamPoints_00005_00005,teamPoints_00001_00005,teamPoints_00006_00005,teamPoints_00010_00005,teamPoints_00002_00005,teamPoints_00007_00005,teamPoints_00003_00005,teamPoints_00008_00005],aux106)
-max([teamPoints_00004_00006,teamPoints_00009_00006,teamPoints_00005_00006,teamPoints_00001_00006,teamPoints_00006_00006,teamPoints_00010_00006,teamPoints_00002_00006,teamPoints_00007_00006,teamPoints_00003_00006,teamPoints_00008_00006],aux107)
-max([teamPoints_00004_00002,teamPoints_00009_00002,teamPoints_00005_00002,teamPoints_00006_00002,41,teamPoints_00010_00002,teamPoints_00002_00002,teamPoints_00007_00002,teamPoints_00003_00002,teamPoints_00008_00002],aux108)
-max([teamPoints_00004_00001,teamPoints_00009_00001,teamPoints_00005_00001,teamPoints_00001_00001,teamPoints_00006_00001,teamPoints_00010_00001,teamPoints_00002_00001,teamPoints_00007_00001,teamPoints_00003_00001,teamPoints_00008_00001],aux109)
-watchelement([teamPoints_00003_00004, teamPoints_00004_00004, teamPoints_00005_00004, teamPoints_00006_00004, teamPoints_00007_00004, teamPoints_00008_00004, teamPoints_00009_00004, teamPoints_00010_00004], aux81, aux48)
-watchelement([teamPoints_00003_00004, teamPoints_00004_00004, teamPoints_00005_00004, teamPoints_00006_00004, teamPoints_00007_00004, teamPoints_00008_00004, teamPoints_00009_00004, teamPoints_00010_00004], aux82, aux49)
-watchelement([teamPoints_00003_00003, 44, teamPoints_00005_00003, teamPoints_00006_00003, teamPoints_00007_00003, teamPoints_00008_00003, teamPoints_00009_00003, teamPoints_00010_00003], aux83, aux50)
-watchelement([teamPoints_00003_00001, teamPoints_00004_00001, teamPoints_00005_00001, teamPoints_00006_00001, teamPoints_00007_00001, teamPoints_00008_00001, teamPoints_00009_00001, teamPoints_00010_00001], aux84, aux51)
-watchelement([teamPoints_00003_00003, 44, teamPoints_00005_00003, teamPoints_00006_00003, teamPoints_00007_00003, teamPoints_00008_00003, teamPoints_00009_00003, teamPoints_00010_00003], aux85, aux52)
-watchelement([teamPoints_00003_00001, teamPoints_00004_00001, teamPoints_00005_00001, teamPoints_00006_00001, teamPoints_00007_00001, teamPoints_00008_00001, teamPoints_00009_00001, teamPoints_00010_00001], aux86, aux53)
-watchelement([teamPoints_00003_00006, teamPoints_00004_00006, teamPoints_00005_00006, teamPoints_00006_00006, teamPoints_00007_00006, teamPoints_00008_00006, teamPoints_00009_00006, teamPoints_00010_00006], aux87, aux54)
-watchelement([teamPoints_00003_00006, teamPoints_00004_00006, teamPoints_00005_00006, teamPoints_00006_00006, teamPoints_00007_00006, teamPoints_00008_00006, teamPoints_00009_00006, teamPoints_00010_00006], aux88, aux55)
-watchelement([teamPoints_00003_00002, teamPoints_00004_00002, teamPoints_00005_00002, teamPoints_00006_00002, teamPoints_00007_00002, teamPoints_00008_00002, teamPoints_00009_00002, teamPoints_00010_00002], aux89, aux56)
-watchelement([teamPoints_00003_00004, teamPoints_00004_00004, teamPoints_00005_00004, teamPoints_00006_00004, teamPoints_00007_00004, teamPoints_00008_00004, teamPoints_00009_00004, teamPoints_00010_00004], aux90, aux57)
-watchelement([teamPoints_00003_00001, teamPoints_00004_00001, teamPoints_00005_00001, teamPoints_00006_00001, teamPoints_00007_00001, teamPoints_00008_00001, teamPoints_00009_00001, teamPoints_00010_00001], aux91, aux58)
-watchelement([teamPoints_00003_00005, teamPoints_00004_00005, teamPoints_00005_00005, teamPoints_00006_00005, teamPoints_00007_00005, teamPoints_00008_00005, teamPoints_00009_00005, teamPoints_00010_00005], aux92, aux59)
-watchelement([teamPoints_00003_00002, teamPoints_00004_00002, teamPoints_00005_00002, teamPoints_00006_00002, teamPoints_00007_00002, teamPoints_00008_00002, teamPoints_00009_00002, teamPoints_00010_00002], aux93, aux60)
-watchelement([teamPoints_00003_00006, teamPoints_00004_00006, teamPoints_00005_00006, teamPoints_00006_00006, teamPoints_00007_00006, teamPoints_00008_00006, teamPoints_00009_00006, teamPoints_00010_00006], aux94, aux61)
-watchelement([teamPoints_00003_00005, teamPoints_00004_00005, teamPoints_00005_00005, teamPoints_00006_00005, teamPoints_00007_00005, teamPoints_00008_00005, teamPoints_00009_00005, teamPoints_00010_00005], aux95, aux62)
-watchelement([teamPoints_00003_00002, teamPoints_00004_00002, teamPoints_00005_00002, teamPoints_00006_00002, teamPoints_00007_00002, teamPoints_00008_00002, teamPoints_00009_00002, teamPoints_00010_00002], aux96, aux63)
-watchelement([teamPoints_00003_00003, 44, teamPoints_00005_00003, teamPoints_00006_00003, teamPoints_00007_00003, teamPoints_00008_00003, teamPoints_00009_00003, teamPoints_00010_00003], aux97, aux64)
-watchelement([teamPoints_00003_00005, teamPoints_00004_00005, teamPoints_00005_00005, teamPoints_00006_00005, teamPoints_00007_00005, teamPoints_00008_00005, teamPoints_00009_00005, teamPoints_00010_00005], aux98, aux65)
-watchelement([41, teamPoints_00002_00002], aux99, aux66)
-watchelement([teamPoints_00001_00001, teamPoints_00002_00001], aux100, aux67)
-watchelement([teamPoints_00001_00005, teamPoints_00002_00005], aux101, aux68)
-watchelement([teamPoints_00001_00006, teamPoints_00002_00006], aux102, aux69)
-watchelement([39, teamPoints_00002_00003], aux103, aux70)
-watched-or({ineq(aux65, teamPoints_00005_00005, 0),w-literal(subs_00002_00005,5),w-literal(subs_00003_00005,5)})
-watchelement([3, 2, 3, 1, 2, 2, 1, 1, 2, 2, 3, 1, 3, 3, 2, 2, 0, 3], aux75, 3)
-watched-or({ineq(aux52, teamPoints_00006_00003, 0),w-literal(subs_00002_00003,6),w-literal(subs_00003_00003,6)})
-ineq(aux67, teamPoints_00002_00001, 0)
-watched-or({ineq(aux51, teamPoints_00007_00001, 0),w-literal(subs_00002_00001,7),w-literal(subs_00003_00001,7)})
-watchelement([55, 63, 67, 61, 45, 42, 43, 56, 43, 42, 53, 53, 44, 47, 39, 56, 41, 39], aux75, teamPoints_00009_00001)
-watchelement([55, 71, 49, 35, 48, 41, 52, 43, 45, 43, 42, 42, 43, 55, 35], aux79, teamPoints_00010_00002)
-watchelement([2, 2, 3, 3, 2, 3, 1, 2, 2, 1, 1, 2, 2], aux80, 2)
-watched-or({ineq(aux61, teamPoints_00008_00006, 0),w-literal(subs_00002_00006,8),w-literal(subs_00003_00006,8)})
-watched-or({ineq(aux48, teamPoints_00009_00004, 0),w-literal(subs_00002_00004,9),w-literal(subs_00003_00004,9)})
-watched-or({ineq(aux63, teamPoints_00010_00002, 0),w-literal(subs_00002_00002,10),w-literal(subs_00003_00002,10)})
-watchelement([85, 61, 57, 55, 63, 67, 61, 45, 42, 43, 56, 43, 42], aux80, teamPoints_00008_00001)
-watchelement([71, 49, 35, 48, 41, 52, 43, 45, 43, 42, 42, 43, 55, 35, 48, 30, 40, 42], aux75, teamPoints_00009_00002)
-watchelement([58, 38, 53, 60, 48, 55, 44, 44, 44, 45, 44, 45, 42, 31, 45], aux79, teamPoints_00010_00003)
-watchelement([2, 3, 3, 2, 3, 1, 2, 2, 1, 1, 2, 2, 3, 1, 3, 3, 2], aux78, 2)
-watched-or({w-literal(subs_00002_00005,6),ineq(aux65, teamPoints_00006_00005, 0),w-literal(subs_00003_00005,6)})
-ineq(aux70, teamPoints_00002_00003, 0)
-watched-or({ineq(aux52, teamPoints_00005_00003, 0),w-literal(subs_00002_00003,5),w-literal(subs_00003_00003,5)})
-watched-or({ineq(aux51, teamPoints_00008_00001, 0),w-literal(subs_00002_00001,8),w-literal(subs_00003_00001,8)})
-watchelement([2, 2, 1, 1, 2, 2, 3, 1, 3, 3, 2, 2], aux74, 2)
-watched-or({ineq(aux61, teamPoints_00009_00006, 0),w-literal(subs_00002_00006,9),w-literal(subs_00003_00006,9)})
-watched-or({w-literal(subs_00002_00004,8),w-literal(subs_00003_00004,8),ineq(aux48, teamPoints_00008_00004, 0)})
-ineq(aux67, teamPoints_00001_00001, 0)
-ineq(aux66, teamPoints_00002_00002, 0)
-watchelement([57, 55, 63, 67, 61, 45, 42, 43, 56, 43, 42, 53, 53, 44, 47], aux79, teamPoints_00010_00001)
-watched-or({w-literal(subs_00002_00002,3),ineq(aux63, teamPoints_00003_00002, 0),w-literal(subs_00003_00002,3)})
-watchelement([70, 95, 80, 95, 65], aux73, teamPrices_00003)
-watched-or({ineq(aux65, teamPoints_00003_00005, 0),w-literal(subs_00002_00005,3),w-literal(subs_00003_00005,3)})
-gacalldiff([subs_00001_00003, subs_00002_00003, subs_00003_00003, subs_00004_00003])
-gacalldiff([subs_00002_00004, subs_00003_00004, subs_00004_00004])
-gacalldiff([subs_00001_00005, subs_00002_00005, subs_00003_00005, subs_00004_00005])
-watched-or({w-literal(subs_00002_00003,8),w-literal(subs_00003_00003,8),ineq(aux52, teamPoints_00008_00003, 0)})
-gacalldiff([subs_00001_00006, subs_00002_00006, subs_00003_00006, subs_00004_00006])
-gacalldiff([subs_00001_00001, subs_00002_00001, subs_00003_00001, subs_00004_00001])
-watchelement([3, 4, 4, 3, 3], aux73, 3)
-gacalldiff([subs_00001_00002, subs_00002_00002, subs_00003_00002, subs_00004_00002])
-watched-or({w-literal(subs_00002_00001,9),ineq(aux51, teamPoints_00009_00001, 0),w-literal(subs_00003_00001,9)})
-watchelement([61, 45, 42, 43], aux72, teamPoints_00005_00001)
-watchelement([41, 52, 43, 45, 43, 42, 42, 43, 55, 35, 48, 30], aux74, teamPoints_00006_00002)
-watchelement([63, 58, 38, 53, 60, 48, 55, 44, 44, 44, 45, 44, 45, 42, 31, 45, 41], aux78, teamPoints_00007_00003)
-watchelement([68, 73, 66, 53, 52, 43, 50, 46, 46, 55, 47, 51, 50], aux80, teamPoints_00008_00004)
-watchelement([53, 61, 58, 59, 52, 44, 46, 55, 45, 43, 50, 52, 41, 35, 41, 47, 42, 40], aux75, teamPoints_00009_00005)
-watchelement([63, 66, 39, 45, 35, 46, 54, 51, 34, 50, 48, 34, 32, 50, 43], aux79, teamPoints_00010_00006)
-watchelement([65, 70], aux76, teamPrices_00004)
-watched-or({ineq(aux51, teamPoints_00010_00001, 0),w-literal(subs_00002_00001,10),w-literal(subs_00003_00001,10)})
-watched-or({w-literal(subs_00002_00006,6),w-literal(subs_00003_00006,6),ineq(aux61, teamPoints_00006_00006, 0)})
-watched-or({w-literal(subs_00002_00002,4),w-literal(subs_00003_00002,4),ineq(aux63, teamPoints_00004_00002, 0)})
-watchelement([4, 3], aux76, teamClubs_00004)
-watched-or({w-literal(subs_00002_00004,3),w-literal(subs_00003_00004,3),ineq(aux48, teamPoints_00003_00004, 0)})
-watchelement([43, 56], aux76, teamPoints_00004_00001)
-watchelement([48, 41, 52, 43], aux72, teamPoints_00005_00002)
-watchelement([55, 44, 44, 44, 45, 44, 45, 42, 31, 45, 41, 50], aux74, teamPoints_00006_00003)
-watchelement([73, 66, 53, 52, 43, 50, 46, 46, 55, 47, 51, 50, 44, 45, 42, 57, 43], aux78, teamPoints_00007_00004)
-watchelement([79, 62, 56, 53, 61, 58, 59, 52, 44, 46, 55, 45, 43], aux80, teamPoints_00008_00005)
-watchelement([66, 39, 45, 35, 46, 54, 51, 34, 50, 48, 34, 32, 50, 43, 50, 37, 45, 40], aux75, teamPoints_00009_00006)
-watched-or({ineq(aux65, teamPoints_00004_00005, 0),w-literal(subs_00002_00005,4),w-literal(subs_00003_00005,4)})
-watchelement([60, 55], aux77, teamPrices_00001)
-watched-or({w-literal(subs_00002_00003,7),w-literal(subs_00003_00003,7),ineq(aux52, teamPoints_00007_00003, 0)})
-watchelement([3, 1], aux77, teamClubs_00001)
-watchelement([61, 57, 55, 63, 67, 61, 45, 42, 43, 56, 43, 42, 53, 53, 44, 47, 39], aux78, teamPoints_00007_00001)
-watchelement([64, 60, 55, 71, 49, 35, 48, 41, 52, 43, 45, 43, 42], aux80, teamPoints_00008_00002)
-watchelement([38, 53, 60, 48, 55, 44, 44, 44, 45, 44, 45, 42, 31, 45, 41, 50, 40, 53], aux75, teamPoints_00009_00003)
-watchelement([66, 53, 52, 43, 50, 46, 46, 55, 47, 51, 50, 44, 45, 42, 57], aux79, teamPoints_00010_00004)
-watchelement([60, 75, 60], aux71, 60)
-watchelement([3, 3, 2, 3, 1, 2, 2, 1, 1, 2, 2, 3, 1, 3, 3], aux79, 3)
-watched-or({w-literal(subs_00002_00006,7),w-literal(subs_00003_00006,7),ineq(aux61, teamPoints_00007_00006, 0)})
-watched-or({w-literal(subs_00002_00004,10),ineq(aux48, teamPoints_00010_00004, 0),w-literal(subs_00003_00004,10)})
-watchelement([4, 7, 3], aux71, teamClubs_00002)
-watched-or({w-literal(subs_00002_00002,5),w-literal(subs_00003_00002,5),ineq(aux63, teamPoints_00005_00002, 0)})
-watchelement([45, 42, 43, 56, 43, 42, 53, 53, 44, 47, 39, 56], aux74, teamPoints_00006_00001)
-watchelement([60, 55, 71, 49, 35, 48, 41, 52, 43, 45, 43, 42, 42, 43, 55, 35, 48], aux78, teamPoints_00007_00002)
-watchelement([70, 63, 58, 38, 53, 60, 48, 55, 44, 44, 44, 45, 44], aux80, teamPoints_00008_00003)
-watchelement([53, 52, 43, 50, 46, 46, 55, 47, 51, 50, 44, 45, 42, 57, 43, 36, 47, 38], aux75, teamPoints_00009_00004)
-watchelement([56, 53, 61, 58, 59, 52, 44, 46, 55, 45, 43, 50, 52, 41, 35], aux79, teamPoints_00010_00005)
-watchelement([45, 37], aux77, teamPoints_00001_00001)
-watchelement([120, 120, 110, 115, 110, 70, 85, 80, 65, 70, 95, 80, 95, 65, 95, 90, 80], aux78, teamPrices_00007)
-watchelement([0, 0], aux77, 0)
-watched-or({w-literal(subs_00002_00003,10),w-literal(subs_00003_00003,10),ineq(aux52, teamPoints_00010_00003, 0)})
-watchelement([4, 4, 0, 3, 6, 3, 5, 1, 4, 3, 4, 4, 3, 3, 0, 2, 1], aux78, teamClubs_00007)
-watched-or({ineq(aux65, teamPoints_00009_00005, 0),w-literal(subs_00002_00005,9),w-literal(subs_00003_00005,9)})
-watched-or({ineq(aux51, teamPoints_00003_00001, 0),w-literal(subs_00002_00001,3),w-literal(subs_00003_00001,3)})
-ineq(aux58, aux53, 0)
-ineq(aux60, aux56, 0)
-ineq(aux50, aux64, 0)
-ineq(aux49, aux57, 0)
-ineq(aux62, aux59, 0)
-ineq(aux54, aux55, 0)
-watchelement([40, 42, 41], aux71, teamPoints_00002_00002)
-watchelement([44, 45, 44, 45, 42], aux73, teamPoints_00003_00003)
-watchelement([55, 47], aux76, teamPoints_00004_00004)
-watchelement([59, 52, 44, 46], aux72, teamPoints_00005_00005)
-watchelement([46, 54, 51, 34, 50, 48, 34, 32, 50, 43, 50, 37], aux74, teamPoints_00006_00006)
-watchelement([41, 41], aux77, 41)
-watchelement([125, 120, 120, 110, 115, 110, 70, 85, 80, 65, 70, 95, 80], aux80, teamPrices_00008)
-watched-or({ineq(aux61, teamPoints_00004_00006, 0),w-literal(subs_00002_00006,4),w-literal(subs_00003_00006,4)})
-watchelement([3, 4, 4, 0, 3, 6, 3, 5, 1, 4, 3, 4, 4], aux80, teamClubs_00008)
-watched-or({ineq(aux48, teamPoints_00005_00004, 0),w-literal(subs_00002_00004,5),w-literal(subs_00003_00004,5)})
-watched-or({ineq(aux63, teamPoints_00006_00002, 0),w-literal(subs_00002_00002,6),w-literal(subs_00003_00002,6)})
-watchelement([40, 53, 39], aux71, teamPoints_00002_00003)
-watchelement([47, 51, 50, 44, 45], aux73, teamPoints_00003_00004)
-watchelement([46, 55], aux76, teamPoints_00004_00005)
-watchelement([35, 46, 54, 51], aux72, teamPoints_00005_00006)
-watchelement([70, 85, 80, 65], aux72, teamPrices_00005)
-watched-or({ineq(aux52, teamPoints_00009_00003, 0),w-literal(subs_00002_00003,9),w-literal(subs_00003_00003,9)})
-watchelement([3, 5, 1, 4], aux72, teamClubs_00005)
-watched-or({w-literal(subs_00002_00005,10),w-literal(subs_00003_00005,10),ineq(aux65, teamPoints_00010_00005, 0)})
-watched-or({w-literal(subs_00002_00001,4),ineq(aux51, teamPoints_00004_00001, 0),w-literal(subs_00003_00001,4)})
-watchelement([56, 43, 42, 53, 53], aux73, teamPoints_00003_00001)
-watchelement([43, 45], aux76, teamPoints_00004_00002)
-watchelement([48, 55, 44, 44], aux72, teamPoints_00005_00003)
-watchelement([46, 46, 55, 47, 51, 50, 44, 45, 42, 57, 43, 36], aux74, teamPoints_00006_00004)
-watchelement([62, 56, 53, 61, 58, 59, 52, 44, 46, 55, 45, 43, 50, 52, 41, 35, 41], aux78, teamPoints_00007_00005)
-watchelement([49, 71, 63, 66, 39, 45, 35, 46, 54, 51, 34, 50, 48], aux80, teamPoints_00008_00006)
-watchelement([85, 80, 65, 70, 95, 80, 95, 65, 95, 90, 80, 90], aux74, teamPrices_00006)
-watched-or({w-literal(subs_00002_00006,5),ineq(aux61, teamPoints_00005_00006, 0),w-literal(subs_00003_00006,5)})
-ineq(team_00007, team_00006, 0)
-watchelement([5, 1, 4, 3, 4, 4, 3, 3, 0, 2, 1, 6], aux74, teamClubs_00006)
-watched-or({ineq(aux48, teamPoints_00004_00004, 0),w-literal(subs_00002_00004,4),w-literal(subs_00003_00004,4)})
-ineq(aux53, aux51, 0)
-ineq(aux56, aux63, 0)
-watched-or({ineq(aux63, teamPoints_00007_00002, 0),w-literal(subs_00002_00002,7),w-literal(subs_00003_00002,7)})
-ineq(aux64, aux52, 0)
-ineq(aux57, aux48, 0)
-ineq(aux59, aux65, 0)
-ineq(aux55, aux61, 0)
-watchelement([41, 39, 45], aux71, teamPoints_00002_00001)
-watchelement([45, 43, 42, 42, 43], aux73, teamPoints_00003_00002)
-watchelement([44, 44], aux76, 44)
-watchelement([50, 46, 46, 55], aux72, teamPoints_00005_00004)
-watchelement([52, 44, 46, 55, 45, 43, 50, 52, 41, 35, 41, 47], aux74, teamPoints_00006_00005)
-watchelement([71, 63, 66, 39, 45, 35, 46, 54, 51, 34, 50, 48, 34, 32, 50, 43, 50], aux78, teamPoints_00007_00006)
-watchelement([46, 36], aux77, teamPoints_00001_00005)
-watchelement([1, 2, 2, 1], aux72, 1)
-watched-or({w-literal(subs_00002_00005,7),w-literal(subs_00003_00005,7),ineq(aux65, teamPoints_00007_00005, 0)})
-ineq(team_00008, team_00007, 0)
-ineq(aux68, teamPoints_00002_00005, 0)
-watched-or({w-literal(subs_00002_00003,4),ineq(aux52, 44, 0),w-literal(subs_00003_00003,4)})
-watchelement([45, 40, 35], aux71, teamPoints_00002_00006)
-watched-or({w-literal(subs_00002_00001,5),w-literal(subs_00003_00001,5),ineq(aux51, teamPoints_00005_00001, 0)})
-watchelement([35, 44], aux77, teamPoints_00001_00006)
-watchelement([1, 1], aux76, 1)
-watched-or({w-literal(subs_00002_00006,10),w-literal(subs_00003_00006,10),ineq(aux61, teamPoints_00010_00006, 0)})
-watched-or({w-literal(subs_00002_00002,8),ineq(aux63, teamPoints_00008_00002, 0),w-literal(subs_00003_00002,8)})
-ineq(aux70, 39, 0)
-watched-or({w-literal(subs_00002_00004,7),w-literal(subs_00003_00004,7),ineq(aux48, teamPoints_00007_00004, 0)})
-watchelement([39, 39], aux77, 39)
-watchelement([110, 115, 110, 70, 85, 80, 65, 70, 95, 80, 95, 65, 95, 90, 80, 90, 60, 75], aux75, teamPrices_00009)
-watchelement([1, 2, 2, 3, 1], aux73, 1)
-watched-or({ineq(aux65, teamPoints_00008_00005, 0),w-literal(subs_00002_00005,8),w-literal(subs_00003_00005,8)})
-ineq(team_00010, team_00009, 0)
-gacalldiff([team_00001, team_00002, team_00003, team_00004, team_00005, team_00006, team_00007, team_00008, team_00009, team_00010])
-watchelement([0, 3, 6, 3, 5, 1, 4, 3, 4, 4, 3, 3, 0, 2, 1, 6, 4, 7], aux75, teamClubs_00009)
-ineq(aux69, teamPoints_00001_00006, 0)
-watched-or({w-literal(subs_00002_00003,3),w-literal(subs_00003_00003,3),ineq(aux52, teamPoints_00003_00003, 0)})
-watchelement([47, 38, 41], aux71, teamPoints_00002_00004)
-watchelement([55, 45, 43, 50, 52], aux73, teamPoints_00003_00005)
-watchelement([51, 34], aux76, teamPoints_00004_00006)
-watched-or({ineq(aux51, teamPoints_00006_00001, 0),w-literal(subs_00002_00001,6),w-literal(subs_00003_00001,6)})
-watchelement([41, 40], aux77, teamPoints_00001_00004)
-watchelement([120, 110, 115, 110, 70, 85, 80, 65, 70, 95, 80, 95, 65, 95, 90], aux79, teamPrices_00010)
-watchelement([0, 3, 0], aux71, 0)
-ineq(aux68, teamPoints_00001_00005, 0)
-ineq(aux69, teamPoints_00002_00006, 0)
-watchelement([4, 0, 3, 6, 3, 5, 1, 4, 3, 4, 4, 3, 3, 0, 2], aux79, teamClubs_00010)
-watched-or({w-literal(subs_00002_00002,9),w-literal(subs_00003_00002,9),ineq(aux63, teamPoints_00009_00002, 0)})
-watched-or({ineq(aux61, teamPoints_00003_00006, 0),w-literal(subs_00002_00006,3),w-literal(subs_00003_00006,3)})
-watched-or({ineq(aux48, teamPoints_00006_00004, 0),w-literal(subs_00002_00004,6),w-literal(subs_00003_00004,6)})
-watchelement([42, 40, 46], aux71, teamPoints_00002_00005)
-watchelement([34, 50, 48, 34, 32], aux73, teamPoints_00003_00006)
-gccweak([teamClubs_00001, teamClubs_00002, teamClubs_00004, teamClubs_00005, teamClubs_00006, teamClubs_00007, teamClubs_00008, teamClubs_00009, teamClubs_00010],[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],[aux28, aux29, aux30, aux110, aux32, aux33, aux34, aux35, aux36, aux37, aux38, aux39, aux40, aux41, aux42, aux43, aux44, aux45, aux46, aux47])
-sumleq([-3,subs_00004_00004],aux81)
-sumgeq([-3,subs_00004_00004],aux81)
-sumleq([subs_00002_00004,-3],aux82)
-sumgeq([subs_00002_00004,-3],aux82)
-sumleq([subs_00002_00003,-3],aux83)
-sumgeq([subs_00002_00003,-3],aux83)
-sumleq([-3,subs_00004_00001],aux84)
-sumgeq([-3,subs_00004_00001],aux84)
-sumleq([-3,subs_00004_00003],aux85)
-sumgeq([-3,subs_00004_00003],aux85)
-sumleq([-3,subs_00003_00001],aux86)
-sumgeq([-3,subs_00003_00001],aux86)
-sumleq([subs_00002_00006,-3],aux87)
-sumgeq([subs_00002_00006,-3],aux87)
-sumleq([-3,subs_00003_00006],aux88)
-sumgeq([-3,subs_00003_00006],aux88)
-sumleq([-3,subs_00003_00002],aux89)
-sumgeq([-3,subs_00003_00002],aux89)
-sumleq([-3,subs_00003_00004],aux90)
-sumgeq([-3,subs_00003_00004],aux90)
-sumleq([subs_00002_00001,-3],aux91)
-sumgeq([subs_00002_00001,-3],aux91)
-sumleq([-3,subs_00003_00005],aux92)
-sumgeq([-3,subs_00003_00005],aux92)
-sumleq([subs_00002_00002,-3],aux93)
-sumgeq([subs_00002_00002,-3],aux93)
-sumleq([-3,subs_00004_00006],aux94)
-sumgeq([-3,subs_00004_00006],aux94)
-sumleq([subs_00002_00005,-3],aux95)
-sumgeq([subs_00002_00005,-3],aux95)
-sumleq([-3,subs_00004_00002],aux96)
-sumgeq([-3,subs_00004_00002],aux96)
-sumleq([-3,subs_00003_00003],aux97)
-sumgeq([-3,subs_00003_00003],aux97)
-sumleq([-3,subs_00004_00005],aux98)
-sumgeq([-3,subs_00004_00005],aux98)
-sumleq([subs_00001_00002,-1],aux99)
-sumgeq([subs_00001_00002,-1],aux99)
-sumleq([subs_00001_00001,-1],aux100)
-sumgeq([subs_00001_00001,-1],aux100)
-sumleq([subs_00001_00005,-1],aux101)
-sumgeq([subs_00001_00005,-1],aux101)
-sumleq([subs_00001_00006,-1],aux102)
-sumgeq([subs_00001_00006,-1],aux102)
-sumleq([subs_00001_00003,-1],aux103)
-sumgeq([subs_00001_00003,-1],aux103)
-sumleq([-1,aux31],aux110)
-sumgeq([-1,aux31],aux110)
-sumleq([team_00002,-20],aux71)
-sumgeq([team_00002,-20],aux71)
-sumleq([team_00005,-7],aux72)
-sumgeq([team_00005,-7],aux72)
-sumleq([team_00003,-11],aux73)
-sumgeq([team_00003,-11],aux73)
-sumleq([team_00006,-8],aux74)
-sumgeq([team_00006,-8],aux74)
-sumleq([team_00009,-4],aux75)
-sumgeq([team_00009,-4],aux75)
-sumleq([team_00004,-10],aux76)
-sumgeq([team_00004,-10],aux76)
-sumleq([team_00001,-22],aux77)
-sumgeq([team_00001,-22],aux77)
-sumleq([team_00007,-2],aux78)
-sumgeq([team_00007,-2],aux78)
-sumleq([team_00010,-3],aux79)
-sumgeq([team_00010,-3],aux79)
-sumleq([team_00008,-1],aux80)
-sumgeq([team_00008,-1],aux80)
-sumleq([60,teamPrices_00001,teamPrices_00003,teamPrices_00004,teamPrices_00005,teamPrices_00006,teamPrices_00007,teamPrices_00008,teamPrices_00009,teamPrices_00010],totalPrice)
-sumgeq([60,teamPrices_00001,teamPrices_00003,teamPrices_00004,teamPrices_00005,teamPrices_00006,teamPrices_00007,teamPrices_00008,teamPrices_00009,teamPrices_00010],totalPrice)
-weightedsumleq([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[teamPoints_00004_00001,teamPoints_00004_00002,teamPoints_00004_00004,teamPoints_00004_00005,teamPoints_00004_00006,teamPoints_00009_00001,teamPoints_00009_00002,teamPoints_00009_00003,teamPoints_00009_00004,teamPoints_00009_00005,teamPoints_00009_00006,aux104,aux105,aux106,aux107,aux108,aux109,teamPoints_00005_00001,teamPoints_00005_00002,teamPoints_00005_00003,teamPoints_00005_00004,teamPoints_00005_00005,teamPoints_00005_00006,teamPoints_00001_00001,teamPoints_00001_00005,teamPoints_00001_00006,teamPoints_00006_00001,teamPoints_00006_00002,teamPoints_00006_00003,teamPoints_00006_00004,teamPoints_00006_00005,teamPoints_00006_00006,124,aux48,aux49,aux50,aux51,aux52,aux53,aux54,aux55,aux56,aux57,aux58,aux59,aux60,aux61,aux62,aux63,aux64,aux65,aux66,aux67,aux68,aux69,aux70,teamPoints_00010_00001,teamPoints_00010_00002,teamPoints_00010_00003,teamPoints_00010_00004,teamPoints_00010_00005,teamPoints_00010_00006,teamPoints_00002_00001,teamPoints_00002_00002,teamPoints_00002_00003,teamPoints_00002_00004,teamPoints_00002_00005,teamPoints_00002_00006,teamPoints_00007_00001,teamPoints_00007_00002,teamPoints_00007_00003,teamPoints_00007_00004,teamPoints_00007_00005,teamPoints_00007_00006,teamPoints_00003_00001,teamPoints_00003_00002,teamPoints_00003_00003,teamPoints_00003_00004,teamPoints_00003_00005,teamPoints_00003_00006,teamPoints_00008_00001,teamPoints_00008_00002,teamPoints_00008_00003,teamPoints_00008_00004,teamPoints_00008_00005,teamPoints_00008_00006],totalPoints)
-weightedsumgeq([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[teamPoints_00004_00001,teamPoints_00004_00002,teamPoints_00004_00004,teamPoints_00004_00005,teamPoints_00004_00006,teamPoints_00009_00001,teamPoints_00009_00002,teamPoints_00009_00003,teamPoints_00009_00004,teamPoints_00009_00005,teamPoints_00009_00006,aux104,aux105,aux106,aux107,aux108,aux109,teamPoints_00005_00001,teamPoints_00005_00002,teamPoints_00005_00003,teamPoints_00005_00004,teamPoints_00005_00005,teamPoints_00005_00006,teamPoints_00001_00001,teamPoints_00001_00005,teamPoints_00001_00006,teamPoints_00006_00001,teamPoints_00006_00002,teamPoints_00006_00003,teamPoints_00006_00004,teamPoints_00006_00005,teamPoints_00006_00006,124,aux48,aux49,aux50,aux51,aux52,aux53,aux54,aux55,aux56,aux57,aux58,aux59,aux60,aux61,aux62,aux63,aux64,aux65,aux66,aux67,aux68,aux69,aux70,teamPoints_00010_00001,teamPoints_00010_00002,teamPoints_00010_00003,teamPoints_00010_00004,teamPoints_00010_00005,teamPoints_00010_00006,teamPoints_00002_00001,teamPoints_00002_00002,teamPoints_00002_00003,teamPoints_00002_00004,teamPoints_00002_00005,teamPoints_00002_00006,teamPoints_00007_00001,teamPoints_00007_00002,teamPoints_00007_00003,teamPoints_00007_00004,teamPoints_00007_00005,teamPoints_00007_00006,teamPoints_00003_00001,teamPoints_00003_00002,teamPoints_00003_00003,teamPoints_00003_00004,teamPoints_00003_00005,teamPoints_00003_00006,teamPoints_00008_00001,teamPoints_00008_00002,teamPoints_00008_00003,teamPoints_00008_00004,teamPoints_00008_00005,teamPoints_00008_00006],totalPoints)
-sumleq([aux28,aux29,aux30,aux31,aux32,aux33,aux34,aux35,aux36,aux37,aux38,aux39,aux40,aux41,aux42,aux43,aux44,aux45,aux46,aux47],10)
-sumgeq([aux28,aux29,aux30,aux31,aux32,aux33,aux34,aux35,aux36,aux37,aux38,aux39,aux40,aux41,aux42,aux43,aux44,aux45,aux46,aux47],10)
-**EOF**
+false()**EOF**

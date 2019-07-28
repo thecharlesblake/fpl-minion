@@ -23,7 +23,7 @@ for gw in range(6):
 player_data_transformed['FPL Price'] = to_scaled_int(player_data['FPL Price'])
 
 num_players = player_data_transformed.shape[0]
-team_size = 10
+team_size = 15
 max_points = max([player_data_transformed['GW' + str(gw + 1)].max() for gw in range(6)])
 points = [player_points.tolist() for _, player_points in player_data_transformed[['GW' + str(gw+1) for gw in range(6)]].iterrows()]
 positions = player_data_transformed['Pos Id'].tolist()

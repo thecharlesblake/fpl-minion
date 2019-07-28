@@ -1,25 +1,30 @@
 language ESSENCE' 1.0
-$ Minion SolverNodes: 9133
-$ Minion SolverTotalTime: 0.217222
+$ Minion SolverNodes: 114313
+$ Minion SolverTotalTime: 2.55291
 $ Minion SolverTimeOut: 0
-$ Savile Row TotalTime: 0.679
-letting subs be [[1, 2, 1, 1, 1, 1], 
-[6, 9, 10, 9, 6, 3], 
-[4, 4, 3, 6, 4, 5], 
-[10, 3, 4, 3, 10, 9]]
-letting team be [23, 20, 11, 10, 7, 9, 2, 1, 6, 4]
-letting teamClubs be [1, 4, 3, 4, 3, 1, 4, 3, 6, 0]
-letting teamPoints be [[37, 41, 39, 40, 36, 44], 
-[41, 40, 40, 47, 42, 45], 
-[56, 45, 44, 47, 55, 34], 
+$ Savile Row TotalTime: 0.811
+letting subs be [[2, 1, 2, 1, 2, 1], 
+[4, 8, 13, 8, 4, 8], 
+[3, 3, 3, 13, 3, 5], 
+[15, 14, 4, 15, 8, 7]]
+letting team be [31, 27, 34, 26, 15, 10, 7, 33, 13, 9, 8, 1, 25, 23, 21]
+letting teamClubs be [7, 3, 6, 3, 5, 6, 5, 8, 6, 3, 7, 5, 1, 7, 9]
+letting teamPoints be [[38, 36, 42, 38, 40, 36], 
+[37, 41, 39, 40, 36, 44], 
+[37, 36, 35, 45, 36, 40], 
+[34, 44, 39, 41, 33, 49], 
+[53, 43, 42, 45, 52, 32], 
 [43, 43, 44, 55, 46, 51], 
 [61, 48, 48, 50, 59, 35], 
+[53, 28, 45, 32, 40, 31], 
+[42, 42, 44, 50, 43, 48], 
 [42, 52, 44, 46, 44, 54], 
-[61, 60, 63, 73, 62, 71], 
+[45, 41, 55, 46, 52, 46], 
 [85, 64, 70, 68, 79, 49], 
-[67, 35, 60, 43, 58, 45], 
-[55, 71, 38, 53, 53, 66]]
-letting teamPositions be [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
-letting teamPrices be [55, 60, 70, 65, 70, 80, 120, 125, 110, 110]
-letting totalPoints be 2518
-letting totalPrice be 865
+[51, 41, 32, 37, 43, 38], 
+[40, 36, 47, 40, 44, 40], 
+[39, 42, 53, 38, 40, 40]]
+letting teamPositions be [0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3]
+letting teamPrices be [55, 55, 55, 60, 65, 65, 70, 75, 80, 80, 85, 15, 80, 85, 75]
+letting totalPoints be 3575
+letting totalPrice be 1000
