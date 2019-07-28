@@ -58,24 +58,28 @@ subprocess.run(['./savilerow-1.7.0RC-linux/savilerow -run-solver fpl.eprime fpl.
 
 with open('fpl.param.solution') as f:
     solution_lines = f.readlines()
-solution = map(lambda v : v - 1, ast.literal_eval(solution_lines[5][16:]))
+solution = map(lambda v : v - 1, ast.literal_eval(solution_lines[9][16:]))
 
-solution_df = player_data.loc[solution]
-solution_df['tmp'] = player_data_transformed['Pos Id']
-solution_df = solution_df.sort_values(by='tmp')
-solution_df = solution_df.drop(['tmp'], axis=1)
+solution_df = player_data.loc[solution].drop(['GW1-6 Value'], axis=1)
 
-total_points = 0
+summary = pd.DataFrame()
 for gw in range(6):
     gw = 'GW' + str(gw+1)
     max_idx = solution_df[gw].idxmax()
-    gw_points = solution_df[gw].sum() + solution_df[gw].max()
-    total_points += gw_points
-    print("{} Points: {}".format(gw, round(gw_points, 2)))
+    sub_values = pd.concat([solution_df[0:2].nsmallest(1, gw).loc[:, gw], solution_df[2:].nsmallest(3, gw).loc[:, gw]])
+    summary.loc[0, gw] = round(solution_df[gw].sum() + solution_df[gw].max() - sub_values.sum(), 2)
+
+    sub_indices = sub_values.index
     solution_df[gw][max_idx] = '*' + str(solution_df[gw][max_idx])
-print("Total Points: {}".format(round(total_points, 2)))
-print("Points Per GW: {}".format(round(total_points / 6.0, 2)))
-print("Total Price: {}".format(solution_df['FPL Price'].sum()))
+    solution_df.loc[sub_indices, gw] = solution_df.loc[sub_indices, gw].apply(lambda pts : '~' + str(pts))
+
+total_points = summary.loc[0].sum()
+summary['GW1-6 Pts'] = total_points
+summary['FPL Price'] = solution_df['FPL Price'].sum()
+summary['Name'] = 'Totals'
+summary['Team'] = ''
+summary['Pos'] = ''
+solution_df.loc[999] = summary.loc[0]
 
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     print(solution_df.to_string(index=False))
