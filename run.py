@@ -3,6 +3,8 @@ from sklearn.preprocessing import OrdinalEncoder
 import subprocess
 import ast
 
+pd.options.mode.chained_assignment = None
+
 
 player_data = pd.read_csv('player_data.csv')
 player_data_transformed = player_data.copy()
@@ -21,9 +23,9 @@ for gw in range(6):
 player_data_transformed['FPL Price'] = to_scaled_int(player_data['FPL Price'])
 
 num_players = player_data_transformed.shape[0]
-team_size = 12
+team_size = 10
 max_points = max([player_data_transformed['GW' + str(gw + 1)].max() for gw in range(6)])
-points = player_data_transformed['GW1'].tolist()
+points = [player_points.tolist() for _, player_points in player_data_transformed[['GW' + str(gw+1) for gw in range(6)]].iterrows()]
 positions = player_data_transformed['Pos Id'].tolist()
 clubs = player_data_transformed['Team Id'].tolist()
 
@@ -34,17 +36,18 @@ prices = player_data_transformed['FPL Price'].tolist()
 param_file = """
 language ESSENCE' 1.0
 
+letting gwCount be {}
 letting numPlayers be {}
 letting teamSize be {}
 letting maxPoints be {}
-letting points be {}
 letting positions be {}
 letting minPrice be {}
 letting maxPrice be {}
 letting priceLimit be {}
 letting prices be {}
 letting clubs be {}
-""".format(num_players, team_size, max_points, points, positions, min_price, max_price, price_limit, prices, clubs)
+letting points be {}
+""".format(6, num_players, team_size, max_points, positions, min_price, max_price, price_limit, prices, clubs, points)
 
 player_data = player_data.drop([], axis=1)
 
@@ -62,10 +65,19 @@ solution_df['tmp'] = player_data_transformed['Pos Id']
 solution_df = solution_df.sort_values(by='tmp')
 solution_df = solution_df.drop(['tmp'], axis=1)
 
+total_points = 0
+for gw in range(6):
+    gw = 'GW' + str(gw+1)
+    max_idx = solution_df[gw].idxmax()
+    gw_points = solution_df[gw].sum() + solution_df[gw].max()
+    total_points += gw_points
+    print("{} Points: {}".format(gw, round(gw_points, 2)))
+    solution_df[gw][max_idx] = '*' + str(solution_df[gw][max_idx])
+print("Total Points: {}".format(round(total_points, 2)))
+print("Points Per GW: {}".format(round(total_points / 6.0, 2)))
+print("Total Price: {}".format(solution_df['FPL Price'].sum()))
+
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     print(solution_df.to_string(index=False))
-print("Total Price: {}".format(solution_df['FPL Price'].sum()))
-print("Total Points: {}".format(solution_df['GW1-6 Pts'].sum()))
-print("Points Per GW: {}".format(round(solution_df['GW1-6 Pts'].sum() / 6.0, 2)))
 
 #subprocess.run(['rm fpl.param.info* fpl.param.minion fpl.param.solution'], shell=True)

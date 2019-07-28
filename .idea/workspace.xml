@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36d3254-426b-4c59-83ad-4a9549b819dc" name="Default Changelist" comment="" />
+    <list default="true" id="c36d3254-426b-4c59-83ad-4a9549b819dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.MINIONSOLS_1564333711825_13970" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.MINIONSTATS_1564333711825_13970" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.eprime" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.eprime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.param" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.param.info" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.param.infor" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.infor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.param.minion" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.minion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.param.solution" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.solution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1OdQJpNCTovPQqffz7mXbihriB4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -77,5 +95,16 @@
       <updated>1564304924371</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

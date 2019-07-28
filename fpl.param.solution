@@ -1,12 +1,21 @@
 language ESSENCE' 1.0
-$ Minion SolverNodes: 1116
-$ Minion SolverTotalTime: 0.124704
+$ Minion SolverNodes: 20562
+$ Minion SolverTotalTime: 6.32382
 $ Minion SolverTimeOut: 0
-$ Savile Row TotalTime: 0.668
-letting team be [1, 6, 5, 2, 3, 11, 69, 35, 38, 10, 53, 140]
-letting teamClubs be [9, 16, 9, 10, 10, 9, 16, 2, 16, 10, 17, 17]
-letting teamPoints be [85, 67, 63, 61, 57, 56, 50, 48, 44, 43, 41, 39]
-letting teamPositions be [2, 3, 2, 2, 3, 1, 1, 2, 0, 1, 0, 1]
-letting teamPrices be [125, 110, 115, 120, 120, 70, 50, 75, 55, 65, 50, 45]
-letting totalPoints be 654
-letting totalPrice be 1000
+$ Savile Row TotalTime: 1.394
+letting team be [1, 2, 3, 11, 4, 15, 8, 10, 27, 26]
+letting teamClubs be [9, 10, 10, 9, 0, 9, 11, 10, 7, 7]
+letting teamPoints be [[85, 64, 70, 68, 79, 49], 
+[61, 60, 63, 73, 62, 71], 
+[57, 55, 58, 66, 56, 63], 
+[56, 45, 44, 47, 55, 34], 
+[55, 71, 38, 53, 53, 66], 
+[53, 43, 42, 45, 52, 32], 
+[45, 41, 55, 46, 52, 46], 
+[43, 43, 44, 55, 46, 51], 
+[37, 41, 39, 40, 36, 44], 
+[34, 44, 39, 41, 33, 49]]
+letting teamPositions be [2, 2, 3, 1, 3, 1, 2, 1, 0, 1]
+letting teamPrices be [125, 120, 120, 70, 110, 65, 85, 65, 55, 60]
+letting totalPoints be 3537
+letting totalPrice be 875
