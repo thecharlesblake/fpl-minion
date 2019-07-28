@@ -60,21 +60,28 @@ with open('fpl.param.solution') as f:
     solution_lines = f.readlines()
 solution = map(lambda v : v - 1, ast.literal_eval(solution_lines[9][16:]))
 
-solution_df = player_data.loc[solution].drop(['GW1-6 Value'], axis=1)
+solution_df = player_data.loc[solution].drop(['GW1-6 Value', 'GW1-6 Pts'], axis=1)
 
 summary = pd.DataFrame()
+solution_df['Totals'] = 0.0
 for gw in range(6):
     gw = 'GW' + str(gw+1)
     max_idx = solution_df[gw].idxmax()
     sub_values = pd.concat([solution_df[0:2].nsmallest(1, gw).loc[:, gw], solution_df[2:].nsmallest(3, gw).loc[:, gw]])
-    summary.loc[0, gw] = round(solution_df[gw].sum() + solution_df[gw].max() - sub_values.sum(), 2)
 
+    for idx, _ in solution_df.iterrows():
+        if idx not in sub_values.index:
+            solution_df.loc[idx, 'Totals'] += solution_df.loc[idx, gw]
+        if idx == max_idx:
+            solution_df.loc[idx, 'Totals'] += solution_df.loc[idx, gw]
+
+    summary.loc[0, gw] = round(solution_df[gw].sum() + solution_df[gw].max() - sub_values.sum(), 2)
     sub_indices = sub_values.index
     solution_df[gw][max_idx] = '*' + str(solution_df[gw][max_idx])
     solution_df.loc[sub_indices, gw] = solution_df.loc[sub_indices, gw].apply(lambda pts : '~' + str(pts))
 
 total_points = summary.loc[0].sum()
-summary['GW1-6 Pts'] = total_points
+summary['Totals'] = solution_df['Totals'].sum()
 summary['FPL Price'] = solution_df['FPL Price'].sum()
 summary['Name'] = 'Totals'
 summary['Team'] = ''

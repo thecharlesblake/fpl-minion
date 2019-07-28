@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c36d3254-426b-4c59-83ad-4a9549b819dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/player_data.csv.full" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.MINIONSOLS_1564336092987_18216" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.MINIONSOLS_1564336189511_18404" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.MINIONSTATS_1564336092987_18216" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.MINIONSTATS_1564336189511_18404" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fpl.eprime" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.eprime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fpl.param" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fpl.param.info" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fpl.param.infor" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.infor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fpl.param.minion" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.minion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fpl.param.solution" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/player_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl.param.solution" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.param.solution" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

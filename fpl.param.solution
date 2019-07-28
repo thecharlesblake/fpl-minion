@@ -1,8 +1,8 @@
 language ESSENCE' 1.0
 $ Minion SolverNodes: 9133
-$ Minion SolverTotalTime: 0.167896
+$ Minion SolverTotalTime: 0.217222
 $ Minion SolverTimeOut: 0
-$ Savile Row TotalTime: 0.597
+$ Savile Row TotalTime: 0.679
 letting subs be [[1, 2, 1, 1, 1, 1], 
 [6, 9, 10, 9, 6, 3], 
 [4, 4, 3, 6, 4, 5], 
