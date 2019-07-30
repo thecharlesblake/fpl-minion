@@ -73,8 +73,8 @@ such that
     $ Ensure correct position counts & player ordering (by GW1 score)
     teamPositions[1] = 0,
     teamPositions[2] = 0,
-    team[1] > team[2],
-    $team[1] = 1, $ GK 1 = woodman
+    $team[1] > team[2],
+    team[1] = 1, $ GK 1 = woodman
 
     teamPositions[3] = 1,
     teamPositions[4] = 1,
@@ -95,7 +95,7 @@ such that
     team[9] > team[10],
     team[10] > team[11],
     team[11] > team[12],
-    $team[12] = 1,
+    $team[12] = 42,
 
     teamPositions[13] = 3,
     teamPositions[14] = 3,
@@ -109,9 +109,10 @@ such that
     $ Select subs
     forAll i : gwDom .
         allDiff(subs[.., i]) /\
-        subs[1, i] in int(1,2) /\
-        teamPoints[subs[1, i], i] <= teamPoints[1, i] /\
-        teamPoints[subs[1, i], i] <= teamPoints[2, i] /\
+        $subs[1, i] in int(1,2) /\
+        $teamPoints[subs[1, i], i] <= teamPoints[1, i] /\
+        $teamPoints[subs[1, i], i] <= teamPoints[2, i] /\
+        subs[1, i] = 1 /\  $ woodman
         subs[2, i] in int(3..15) /\
         subs[3, i] in int(3..15) /\
         subs[4, i] in int(3..15) /\

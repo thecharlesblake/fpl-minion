@@ -42,7 +42,7 @@ player_data_transformed = pd.concat([
     get_best(9, 'MID', 'GW1-6 Value'),
     get_best(5, 'FWD', 'GW1-6 Pts'),
     get_best(6, 'FWD', 'GW1-6 Value'),
-    #keep(['Woodman'])
+    keep(['Woodman'])
     # get_best(6, 'GK', 'GW1-6 Pts', player_data_transformed),
     # get_best(6, 'GK', 'GW1-6 Value', player_data_transformed),
     # get_best(10, 'DEF', 'GW1-6 Pts', player_data_transformed),
