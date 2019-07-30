@@ -16,11 +16,26 @@ player_data_transformed['Pos Id'] = player_data['Pos'].apply(lambda p : {'GK': 0
 def to_scaled_int(col):
     return pd.to_numeric(10 * col, downcast='integer')
 
-
 for gw in range(6):
     gw_str = 'GW' + str(gw + 1)
     player_data_transformed[gw_str] = to_scaled_int(player_data[gw_str])
 player_data_transformed['FPL Price'] = to_scaled_int(player_data['FPL Price'])
+
+# Only select top value players, top price players and custom cheapies per position
+def get_best(n, pos, by, data):
+    return data[data['Pos'] == pos].nlargest(n, by)
+
+player_data_transformed = pd.concat([
+    get_best(4, 'GK', 'GW1-6 Pts', player_data_transformed),
+    get_best(4, 'GK', 'GW1-6 Value', player_data_transformed),
+    get_best(8, 'DEF', 'GW1-6 Pts', player_data_transformed),
+    get_best(8, 'DEF', 'GW1-6 Value', player_data_transformed),
+    get_best(8, 'MID', 'GW1-6 Pts', player_data_transformed),
+    get_best(8, 'MID', 'GW1-6 Value', player_data_transformed),
+    get_best(4, 'FWD', 'GW1-6 Pts', player_data_transformed),
+    get_best(4, 'FWD', 'GW1-6 Value', player_data_transformed),
+]).drop_duplicates()
+print(player_data_transformed)
 
 num_players = player_data_transformed.shape[0]
 team_size = 15
@@ -58,9 +73,11 @@ subprocess.run(['./savilerow-1.7.0RC-linux/savilerow -run-solver fpl.eprime fpl.
 
 with open('fpl.param.solution') as f:
     solution_lines = f.readlines()
-solution = map(lambda v : v - 1, ast.literal_eval(solution_lines[9][16:]))
+solution = list(map(lambda v : v - 1, ast.literal_eval(solution_lines[9][16:])))
 
-solution_df = player_data.loc[solution].drop(['GW1-6 Value', 'GW1-6 Pts'], axis=1)
+solution_transformed_indices = player_data_transformed.iloc[solution].index.values
+
+solution_df = player_data.loc[solution_transformed_indices].drop(['GW1-6 Value', 'GW1-6 Pts'], axis=1)
 
 summary = pd.DataFrame()
 solution_df['Totals'] = 0.0
