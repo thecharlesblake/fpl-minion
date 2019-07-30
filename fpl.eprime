@@ -14,7 +14,7 @@ letting gwDom be domain int(1..gwCount)
 letting teamDom be domain int(1..teamSize)
 letting positionDom be domain int(0..3)
 letting priceDom be domain int(minPrice..maxPrice)
-letting clubDom be domain int(0..19)
+letting clubDom be domain int(1..20)
 letting subsDom be domain int(1..4)
 
 given points : matrix indexed by [playerDom, gwDom] of pointsDom
@@ -31,6 +31,8 @@ find totalPrice : int(minPrice * teamSize..maxPrice * teamSize)
 find teamClubs : matrix indexed by [teamDom] of clubDom
 find subs : matrix indexed by [subsDom, gwDom] of teamDom
 
+branching on [team]
+heuristic conflict
 maximising totalPoints
 
 such that
@@ -66,12 +68,13 @@ such that
 
     $ Price limit
     totalPrice <= priceLimit,
-    $totalPrice >= 950,
+    totalPrice >= 950,
 
     $ Ensure correct position counts & player ordering (by GW1 score)
     teamPositions[1] = 0,
     teamPositions[2] = 0,
     team[1] > team[2],
+    $team[1] = 1, $ GK 1 = woodman
 
     teamPositions[3] = 1,
     teamPositions[4] = 1,
@@ -101,7 +104,7 @@ such that
     team[14] > team[15],
 
     $ Ensure 3 players per club
-    atmost(teamClubs, [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3], [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]),
+    atmost(teamClubs, [3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1], [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]),
 
     $ Select subs
     forAll i : gwDom .

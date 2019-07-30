@@ -5,12 +5,13 @@ import ast
 
 pd.options.mode.chained_assignment = None
 
-
 player_data = pd.read_csv('player_data.csv')
 player_data_transformed = player_data.copy()
 
-player_data_transformed['Team Id'] = OrdinalEncoder().fit_transform(player_data['Team'].values.reshape(-1, 1))
-player_data_transformed['Team Id'] = pd.to_numeric(player_data_transformed['Team Id'], downcast='integer')
+team_map = {'LIV':2,'MCI':1,'ARS':5,'TOT':4,'MUN':6,'EVE':8,'LEI':9,'WOL':7,'BOU':12,'CHE':3,'CRY':13,'BRI':17,
+'WHM':10,'SOT':16,'WAT':11,'NEW':14,'AVL':18,'NOR':19,'BUR':15,'SHU':20}
+
+player_data_transformed['Team Id'] = player_data['Team'].apply(lambda t : team_map[t])
 player_data_transformed['Pos Id'] = player_data['Pos'].apply(lambda p : {'GK': 0, 'DEF': 1, 'MID': 2, 'FWD': 3}[p])
 
 def to_scaled_int(col):
@@ -22,19 +23,42 @@ for gw in range(6):
 player_data_transformed['FPL Price'] = to_scaled_int(player_data['FPL Price'])
 
 # Only select top value players, top price players and custom cheapies per position
-def get_best(n, pos, by, data):
-    return data[data['Pos'] == pos].nlargest(n, by)
+def get_best(n, pos, by):
+    return player_data_transformed[player_data_transformed['Pos'] == pos].nlargest(n, by)
+
+def keep(players):
+    for player in players:
+        if player not in player_data_transformed['Name'].unique():
+            print("Requested player '{}' not found.".format(player))
+            exit(1)
+    return player_data_transformed[player_data_transformed['Name'].isin(players)]
 
 player_data_transformed = pd.concat([
-    get_best(4, 'GK', 'GW1-6 Pts', player_data_transformed),
-    get_best(4, 'GK', 'GW1-6 Value', player_data_transformed),
-    get_best(8, 'DEF', 'GW1-6 Pts', player_data_transformed),
-    get_best(8, 'DEF', 'GW1-6 Value', player_data_transformed),
-    get_best(8, 'MID', 'GW1-6 Pts', player_data_transformed),
-    get_best(8, 'MID', 'GW1-6 Value', player_data_transformed),
-    get_best(4, 'FWD', 'GW1-6 Pts', player_data_transformed),
-    get_best(4, 'FWD', 'GW1-6 Value', player_data_transformed),
+    get_best(6, 'GK', 'GW1-6 Pts'),
+    get_best(6, 'GK', 'GW1-6 Value'),
+    get_best(5, 'DEF', 'GW1-6 Pts'),
+    get_best(7, 'DEF', 'GW1-6 Value'),
+    get_best(8, 'MID', 'GW1-6 Pts'),
+    get_best(9, 'MID', 'GW1-6 Value'),
+    get_best(5, 'FWD', 'GW1-6 Pts'),
+    get_best(6, 'FWD', 'GW1-6 Value'),
+    #keep(['Woodman'])
+    # get_best(6, 'GK', 'GW1-6 Pts', player_data_transformed),
+    # get_best(6, 'GK', 'GW1-6 Value', player_data_transformed),
+    # get_best(10, 'DEF', 'GW1-6 Pts', player_data_transformed),
+    # get_best(12, 'DEF', 'GW1-6 Value', player_data_transformed),
+    # get_best(10, 'MID', 'GW1-6 Pts', player_data_transformed),
+    # get_best(12, 'MID', 'GW1-6 Value', player_data_transformed),
+    # get_best(9, 'FWD', 'GW1-6 Pts', player_data_transformed),
+    # get_best(10, 'FWD', 'GW1-6 Value', player_data_transformed),
 ]).drop_duplicates()
+player_data_transformed = player_data_transformed.sort_values(['FPL Price'])
+
+# woodman
+# kelly, reid ; Dunk, Cathcart, Diop, Lascelles, El Mohamady; Duffy, Coady
+# Dendoncker; March; Atsu, McArthur; Perez, Redmond, Zaha, Felipe Anderson, Maddison
+# Greenwood, McGoldrick, Nketiah, Surridge
+
 print(player_data_transformed)
 
 num_players = player_data_transformed.shape[0]
