@@ -36,13 +36,15 @@ def keep(players):
 player_data_transformed = pd.concat([
     get_best(6, 'GK', 'GW1-6 Pts'),
     get_best(6, 'GK', 'GW1-6 Value'),
-    get_best(5, 'DEF', 'GW1-6 Pts'),
-    get_best(7, 'DEF', 'GW1-6 Value'),
-    get_best(8, 'MID', 'GW1-6 Pts'),
-    get_best(9, 'MID', 'GW1-6 Value'),
+    get_best(6, 'DEF', 'GW1-6 Pts'),
+    get_best(8, 'DEF', 'GW1-6 Value'),
+    get_best(6, 'MID', 'GW1-6 Pts'),
+    get_best(7, 'MID', 'GW1-6 Value'),
     get_best(5, 'FWD', 'GW1-6 Pts'),
     get_best(6, 'FWD', 'GW1-6 Value'),
-    keep(['Woodman'])
+    keep(['Woodman']),
+    #keep(['Kelly', 'Reid', 'Dunk', 'Cathcart', 'Diop', 'Lascelles', 'El Mohamady', 'Duffy', 'Coady']),
+    #keep(['Dendoncker', 'March', 'Atsu', 'McArthur', 'Perez', 'Redmond', 'Zaha', 'Felipe Anderson', 'Maddison']),
     # get_best(6, 'GK', 'GW1-6 Pts', player_data_transformed),
     # get_best(6, 'GK', 'GW1-6 Value', player_data_transformed),
     # get_best(10, 'DEF', 'GW1-6 Pts', player_data_transformed),
@@ -52,7 +54,7 @@ player_data_transformed = pd.concat([
     # get_best(9, 'FWD', 'GW1-6 Pts', player_data_transformed),
     # get_best(10, 'FWD', 'GW1-6 Value', player_data_transformed),
 ]).drop_duplicates()
-player_data_transformed = player_data_transformed.sort_values(['FPL Price'])
+player_data_transformed = player_data_transformed.sort_values(['FPL Price', 'Pos Id'])
 
 # woodman
 # kelly, reid ; Dunk, Cathcart, Diop, Lascelles, El Mohamady; Duffy, Coady

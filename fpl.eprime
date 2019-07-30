@@ -71,35 +71,19 @@ such that
     totalPrice >= 950,
 
     $ Ensure correct position counts & player ordering (by GW1 score)
-    teamPositions[1] = 0,
-    teamPositions[2] = 0,
-    $team[1] > team[2],
     team[1] = 1, $ GK 1 = woodman
 
-    teamPositions[3] = 1,
-    teamPositions[4] = 1,
-    teamPositions[5] = 1,
-    teamPositions[6] = 1,
-    teamPositions[7] = 1,
+    table(teamPositions, [[0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3]]),
     team[3] > team[4],
     team[4] > team[5],
     team[5] > team[6],
     team[6] > team[7],
 
-    teamPositions[8] = 2,
-    teamPositions[9] = 2,
-    teamPositions[10] = 2,
-    teamPositions[11] = 2,
-    teamPositions[12] = 2,
     team[8] > team[9],
     team[9] > team[10],
     team[10] > team[11],
     team[11] > team[12],
-    $team[12] = 42,
 
-    teamPositions[13] = 3,
-    teamPositions[14] = 3,
-    teamPositions[15] = 3,
     team[13] > team[14],
     team[14] > team[15],
 
@@ -109,13 +93,8 @@ such that
     $ Select subs
     forAll i : gwDom .
         allDiff(subs[.., i]) /\
-        $subs[1, i] in int(1,2) /\
-        $teamPoints[subs[1, i], i] <= teamPoints[1, i] /\
-        $teamPoints[subs[1, i], i] <= teamPoints[2, i] /\
         subs[1, i] = 1 /\  $ woodman
-        subs[2, i] in int(3..15) /\
-        subs[3, i] in int(3..15) /\
-        subs[4, i] in int(3..15) /\
+        subs[2, i] > 2 /\ subs[3, i] > 2 /\ subs[4, i] > 2 /\
         teamPoints[subs[2, i], i] <= teamPoints[subs[3, i], i] /\
         teamPoints[subs[3, i], i] <= teamPoints[subs[4, i], i] /\
         forAll j : int(3..15) .
