@@ -71,13 +71,15 @@ such that
     totalPrice >= 950,
 
     $ Ensure correct position counts & player ordering (by GW1 score)
-    team[1] = 1, $ GK 1 = woodman
+    team[1] = 1, $ Woodman
+    team[3] = numPlayers - 1, $ Laporte
+    team[8] = numPlayers    , $ Salah
 
     table(teamPositions, [[0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3]]),
     team[3] > team[4],
     team[4] > team[5],
     team[5] > team[6],
-    team[6] > team[7],
+    team[6] > team[7],  $ shove added player to bottom, print out index, then just adding them is one line!
 
     team[8] > team[9],
     team[9] > team[10],
